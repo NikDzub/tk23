@@ -2,6 +2,8 @@
 
 
 # python3 A0.py && python3 A1.py && python3 A2.py
+# python3 A0.py && python3 A1.py && python3 A2.py &&
+# python3 A0.py || python3 A1.py || python3 A2.py ||
 
 from ppadb.client import Client as AdbClient
 import time

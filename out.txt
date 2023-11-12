@@ -1,2 +1,2 @@
 Added Fragments:
-      #0: FollowRelationTabFragment{6cce586} (4f2d08e0-fbaa-4b25-9fa1-72b4ab411f2d) id=0x7f0b1653 follow_relation_tab
+      #0: UserProfileFragment{488d309} (ddcc843b-0e92-42b6-89f0-1c1787f3fa26) id=0x7f0b2e55

@@ -99,4 +99,4 @@ while in_follow == False:
     output_file.write(output_txt)
     output_file.close()
 
-exit(0)
+exit(1)

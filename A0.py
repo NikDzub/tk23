@@ -34,4 +34,4 @@ while inside_app == False:
         # print("not in app")
         time.sleep(1)
 
-quit(0)
+quit(1)

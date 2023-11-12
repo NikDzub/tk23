@@ -100,4 +100,4 @@ for i in range(10):
         output_file.close()
 
 device.shell("am force-stop com.zhiliaoapp.musically")
-exit(0)
+exit(1)
