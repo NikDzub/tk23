@@ -1,12 +1,2 @@
-DetailActivity[0m - [2m5ba8be0[0m [93;2mpid:9021[0m [93mActive[0m
-├─ [93m[0m[95mReportFragment[0m - [2m2ab984 [36;2m(androidx.lifecycle.LifecycleDispatcher.report_fragment_tag)[0m
-├─ [93m[0m[95mProfilePageFragment[0m - [2m55dc88f[0m
-├─ [93m[0m[95mDetailFragment[0m - [2me29b063[0m
-└─ [93m[0m[95mDetailPageFragment[0m - [2m84f9c33[0m
-   ├─ [93m[0m[95mWidgetManager[0m - [2m5db669d [36;2m(com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager)[0m
-   ├─ [93m[0m[95mWidgetManager[0m - [2mdd73637 [36;2m(com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager)[0m
-   ├─ [93m[0m[95mWidgetManager[0m - [2m78a597a [36;2m(com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager)[0m
-   ├─ [93m[0m[95mBottomBarFragment[0m - [2m7f32c2e[0m
-   ├─ [93m[0m[95mWidgetManager[0m - [2maf4777d [36;2m(com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager)[0m
-   ├─ [93m[0m[95mWidgetManager[0m - [2mcdf792f [36;2m(com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager)[0m
-   └─ [93m[0m[95mWidgetManager[0m - [2m1b13b0f [36;2m(com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager)[0m
+Added Fragments:
+      #0: UserProfileFragment{d8b38e} (ae1c37fb-5902-46a3-9649-f8aa34de6f11) id=0x7f0b2e55

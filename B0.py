@@ -41,7 +41,7 @@ async def main():
         n_try = 10
 
         while True:
-            print(n_try)
+            # print(n_try)
             if n_try == 0:
                 device.shell("reboot -p")
                 break
@@ -57,6 +57,11 @@ async def main():
 
                 if "MainPageFragment" in output:
                     print("App loaded.")
+                    await asyncio.sleep(1)
+                    device.shell(f"input keyevent 62")
+                    await asyncio.sleep(1)
+                    device.shell(f"input tap 685 80")
+
                     break
 
             except Exception as error:

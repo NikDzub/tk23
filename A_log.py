@@ -16,7 +16,7 @@ devices = client.devices()
 if len(devices) == 0:
     print("No devices")
     quit(1)
-device = devices[0]
+device = devices[1]
 
 app_name = "com.zhiliaoapp.musically"
 all_layers = f"dumpsys activity {app_name}"
@@ -43,6 +43,7 @@ while in_follower_profile == False:
     output_txt = output_txt[:index_end]
 
     output_file = open("./out.txt", "w")
+    print(output_txt)
     output_file.write(output_txt)
     output_file.close()
 
