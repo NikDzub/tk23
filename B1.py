@@ -15,7 +15,7 @@ import random
 # "\033[93m",
 # "\033[91m",
 
-users = ["tonyhawk", "bellapoarch"]
+users = ["bellapoarch", "therock", "mcbella", "rodionova_34", "yuliacohen1"]
 
 
 client = AdbClient(host="127.0.0.1", port=5037)
@@ -33,7 +33,8 @@ async def verify_in_search(device):
     while True:
         # print(n_try)
         if n_try == 0:
-            device.shell("reboot -p")
+            # device.shell("reboot -p")
+            print("Shutting down")
             break
 
         try:
@@ -83,6 +84,18 @@ async def verify_in_search(device):
                 device.shell(f"input keyevent 20")
                 await asyncio.sleep(1)
                 device.shell(f"input keyevent 66")
+
+            if "FollowRelationTabFragment" in output:
+                print(f"In Followers")
+                await asyncio.sleep(1)
+                device.shell(f"input keyevent 20")
+                await asyncio.sleep(1)
+                device.shell(f"input keyevent 20")
+                await asyncio.sleep(1)
+                device.shell(f"input keyevent 66")
+                await asyncio.sleep(1)
+
+                break
 
         except Exception as error:
             print(error)

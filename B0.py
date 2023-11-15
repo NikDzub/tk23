@@ -59,8 +59,17 @@ async def main():
                     print("App loaded.")
                     await asyncio.sleep(1)
                     device.shell(f"input keyevent 62")
-                    await asyncio.sleep(1)
-                    device.shell(f"input tap 685 80")
+
+                    while True:
+                        await asyncio.sleep(1)
+                        device.shell(f"input tap 685 80")
+                        output = device.shell(f"dumpsys activity {app_name}")
+                        index_start = output.rindex("Added Fragments:")
+                        index_end = output.rindex("}")
+                        output = output[index_start:index_end]
+
+                        if "SearchResultFragmentNew" in output:
+                            break
 
                     break
 
