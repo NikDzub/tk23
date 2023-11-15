@@ -44,36 +44,34 @@ async def go_to_followers(device):
         index_end = output.rindex("}")
         output = output[index_start:index_end]
 
-        if "FollowRelationTabFragment" in output:
+        if "FollowRelationTabFragment" not in output:
+            device.shell(f"input keyevent 4")
+
+        else:
             break
 
 
 async def book_mark(device):
     await asyncio.sleep(1)
-    device.shell(f"input keyevent 62")
-    await asyncio.sleep(1)
     device.shell(f"input tap 690 1015")
-    await asyncio.sleep(1)
-    device.shell(f"input keyevent 4")
 
     await go_to_followers(device)
 
 
 async def loop_followers(device):
-    video_exists = await check_if_video(device)
-    print(video_exists)
+    while True:
+        video_exists = await check_if_video(device)
 
-    if video_exists:
-        print("Video Exists")
-        await asyncio.sleep(1)
-        device.shell(f"input tap 80 665")
-        await asyncio.sleep(1)
-        device.shell(f"input keyevent 62")
-        await asyncio.sleep(1)
-
-        await book_mark(device)
-    else:
-        go_to_followers(device)
+        if video_exists:
+            print("Video Exists")
+            await asyncio.sleep(1)
+            device.shell(f"input tap 80 665")
+            await asyncio.sleep(1)
+            device.shell(f"input keyevent 62")
+            await asyncio.sleep(1)
+            await book_mark(device)
+        else:
+            await go_to_followers(device)
 
 
 # 🏄‍♀️🏄‍♀️🏄‍♀️🏄‍♀️🏄‍♀️🏄‍♀️🏄‍♀️🏄‍♀️🏄‍♀️🏄‍♀️

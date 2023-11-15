@@ -1,2 +1,2 @@
 Added Fragments:
-      #0: FollowRelationTabFragment{ff059e6} (2a4328ee-9669-4446-9900-e6543ba9d003) id=0x7f0b1653 follow_relation_tab
+      #0: SearchResultFragmentNew{8fd4dd6} (27d62f68-c142-4dc1-9fd8-a2593d255fba) id=0x7f0b1653 container
