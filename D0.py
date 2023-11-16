@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# python3 D0.py && python3 D1.py && python3 D2.py &&
+
 from ppadb.client import Client as AdbClient
 import time
 import asyncio

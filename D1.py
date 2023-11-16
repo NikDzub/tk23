@@ -38,6 +38,8 @@ key_tab = 61
 
 xy_users_tab = "290 120"
 
+xy_top_result = "328 155"
+
 
 async def verify_in_search(device):
     n_try = 5
@@ -94,12 +96,6 @@ async def verify_in_search(device):
 
             if "FollowRelationTabFragment" in output:
                 print(f"In Followers")
-                await asyncio.sleep(1)
-                device.shell(f"input keyevent {key_down}")
-                await asyncio.sleep(1)
-                device.shell(f"input keyevent {key_down}")
-                await asyncio.sleep(1)
-                device.shell(f"input keyevent {key_enter}")
                 await asyncio.sleep(1)
 
                 break
