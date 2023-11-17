@@ -1,0 +1,15 @@
+{
+  "xy_params": {
+    "search": "435 75",
+    "users_tab": "100 100",
+    "top_result ": "328 230"
+  },
+  "keyevents": {
+    "enter": "input keyevent 66",
+    "space": "input keyevent 62",
+    "back": "input keyevent 4",
+    "down": "input keyevent 20",
+    "up": "input keyevent 19",
+    "tab": "input keyevent 61"
+  }
+}
