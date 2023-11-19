@@ -44,16 +44,18 @@ async def filter_response(response):
         response = await response.json()
         users = response["userList"]
         for user in users:
-            if (user["stats"]["videoCount"]) != 0 and user["user"][
-                "uniqueId"
-            ] not in users_db:
+            if (
+                (user["user"]["privateAccount"]) != "false"
+                and (user["stats"]["videoCount"]) > 2
+                and user["user"]["uniqueId"] not in users_db
+            ):
                 users_db.append(user["user"]["uniqueId"])
 
 
 async def open_app(device):
     open_app = f"monkey -p {app_name} 1"
     device.shell(open_app)
-    await asyncio.sleep(2)
+    # await asyncio.sleep(2)
 
 
 async def verify_load_app(device):
@@ -86,10 +88,9 @@ async def main():
         await page.wait_for_timeout(1000)
 
         await page.click('span[data-e2e="followers"]')
-
         page.on("response", filter_response)
 
-        while len(users_db) < 50:
+        while len(users_db) < 150:
             followers = await page.query_selector_all('p[class*="UniqueId"]')
             try:
                 await followers[len(followers) - 1].scroll_into_view_if_needed()
@@ -106,8 +107,9 @@ async def main():
                 device.shell(
                     f"am start -W -a android.intent.action.VIEW -d {url} {app_name}"
                 )
-                device.shell(f"input tap 440 290")
                 await asyncio.sleep(2)
+                device.shell(f"input tap 440 290")
+                await asyncio.sleep(1)
 
             try:
                 await page.goto(f"https://tiktok.com/@{user}", wait_until="load")
@@ -119,7 +121,7 @@ async def main():
 
                 for video in videos_selector:
                     url = await video.get_attribute("href")
-                    if url not in videos_db:
+                    if url not in videos_db and len(videos_db) < 2:
                         videos_db.append(url)
 
                 for device in devices:
