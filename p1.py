@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# python3 p1.py && python3 p2.py ||
+
 import asyncio
 from playwright.async_api import async_playwright
 import os
@@ -98,14 +100,14 @@ async def p1():
         context = await p.firefox.launch_persistent_context(
             user_data_dir=context_dir, headless=False
         )
-        context.route("**/*", block_media)
+        # context.route("**/*", block_media)
         pg = context.pages[0]
         # await pg.wait_for_timeout(435435345)
         await pg.close()
 
         context.on("response", filter_response)
 
-        for x in range(2):
+        for x in range(1):
             await context.new_page()
 
         async def get_users(page):
@@ -117,7 +119,7 @@ async def p1():
             await page.wait_for_timeout(1000)
             await page.click('span[data-e2e="followers"]')
 
-            while len(new_users) < 50:
+            while len(new_users) < 100:
                 followers = await page.query_selector_all('p[class*="UniqueId"]')
                 try:
                     await followers[len(followers) - 1].scroll_into_view_if_needed()
@@ -145,6 +147,8 @@ async def p1():
             for user in new_users[index]:
                 try:
                     await page.goto(f"https://tiktok.com/@{user}", wait_until="load")
+                    # await page.wait_for_timeout(276000)
+
                     await page.wait_for_selector(
                         f"a[href*='{user}/video']", timeout=5000
                     )
@@ -179,6 +183,7 @@ async def p1():
 
         print(new_users)
         print(new_videos)
+        await context.close()
 
 
 asyncio.run(p1())

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!-- window.location.href ='intent://cardfruit.com#Intent;scheme=http;action=android.intent.action.VIEW;end'; -->
+<html>
+  <head>
+    <script>
+      function chrome() {
+        setTimeout(() => {
+          if (
+            navigator.userAgent.match(/iPhone/i) ||
+            navigator.userAgent.match(/iPod/i)
+          ) {
+            location.replace('com.myapp://');
+            setTimeout(function () {
+              if (!document.webkitHidden) {
+                location.replace('https://itunes.apple.com/app/xxxxxxxx');
+              }
+            }, 25);
+          } else if (
+            navigator.userAgent.match(/android/i) ||
+            navigator.userAgent.match(/Android/i)
+          ) {
+            location.replace(
+              'intent://cardfruit.com#Intent;scheme=http;action=android.intent.action.VIEW;end'
+            );
+          } else {
+            location.replace('http://www.example.com');
+          }
+
+          window.location.href = 'intent:https://cardfruit.com#Intent;end';
+        }, '4000');
+      }
+    </script>
+    <link rel="stylesheet" href="coinstyle.css" />
+    <meta charset="utf-8" />
+
+    <title>New Prize Every Day!</title>
+    <base />
+    <!--============== CHANGE HERE uncomment -->
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="author" content="XM63R73" />
+    <meta name="description" content="XM63R73 - New Prize Every Day!" />
+
+    <meta property="og:description" content="XM63R73 - New Prize Every Day!" />
+    <meta property="og:image" content="resopurces/meta.html" />
+    <meta property="og:site_name" content="XM63R73 - New Prize Every Day!" />
+    <meta property="og:title" content="XM63R73 - New Prize Every Day!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+  </head>
+  <body onload="chrome()">
+    <div class="center" onclick="chrome()">
+      <!-- <img class="tktkimg" src="./tktkimg.png"></img> -->
+      <p>gfdgdfg</p>
+    </div>
+    <!-- <div class="firework"></div>
+    <div class="firework"></div>
+
+    <div class="firework"></div>
+    <div class="firework"></div> -->
+  </body>
+</html>

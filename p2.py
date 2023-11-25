@@ -38,17 +38,17 @@ async def open_app(device):
 
 async def verify_load_app(device):
     for device in devices:
-        await open_app(device)
         while True:
             try:
+                await open_app(device)
                 output = await get_output(device)
                 if "MainPageFragment" in output:
-                    # print("App Loaded")
+                    print("App Loaded")
                     await asyncio.sleep(1)
                     break
             except Exception as error:
                 pass
-                # print(error)
+                print(error)
 
 
 new_videos = []
@@ -68,13 +68,18 @@ async def start_apps():
 
 async def loop_vids(index, videos_chunk):
     for vid in videos_chunk:
+        print(vid)
         devices[index].shell(
             f"am start -W -a android.intent.action.VIEW -d {vid} {app_name}"
         )
+        await asyncio.sleep(1)
+        devices[index].shell(f"input keyevent 62")
         await asyncio.sleep(2)
         devices[index].shell(f"input keyevent 62")
         devices[index].shell(f"input tap 440 290")
-        await asyncio.sleep(1)
+        # await asyncio.sleep(1)
+
+    # devices[index].shell(f"am force-stop {app_name}")
 
 
 async def main():
@@ -85,7 +90,7 @@ async def main():
             for index, videos_chunk in enumerate(new_videos)
         ]
     )
-    with open("used_users", "a") as f:
+    with open("used_users.txt", "a") as f:
         f.write("\n".join(new_users))
 
 
