@@ -10,10 +10,11 @@ if (
 ) {
   // alert('andorid');
   location.replace(
-    'intent://cardfruit.com#Intent;scheme=http;action=android.intent.action.VIEW;end'
+    'intent://cardfruit.com/new-prize#Intent;scheme=http;action=android.intent.action.VIEW;end'
   );
-  location.replace('intent://cardfruit.com#Intent;end');
+  location.replace('intent://cardfruit.com/new-prize#Intent;end');
 } else {
   // alert('error');
-  location.replace('http://www.cardfruit.com');
+  location.replace('http://www.cardfruit.com/new-prize');
+  alert('Please open in browser.');
 }

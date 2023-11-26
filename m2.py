@@ -54,8 +54,10 @@ async def verify_load_app(device):
 
 
 new_users = []
+new_users_copy = []
 with open("new_users.txt", "r", encoding="utf-8") as f:
     new_users = f.read().splitlines()
+new_users_copy = new_users
 new_users = split_list(new_users, len(devices))
 
 
@@ -65,32 +67,35 @@ async def start_apps():
 
 
 async def loop_users(index, users_chunk):
-    for user in users_chunk:
-        print(user)
+    for i, user in enumerate(users_chunk):
+        print(f"device #{index} : {user} ({i}/{len(users_chunk)})")
         devices[index].shell(
             f"am start -W -a android.intent.action.VIEW -d https://www.tiktok.com/@{user} {app_name}"
         )
-        await asyncio.sleep(1)
+        await asyncio.sleep(2)
         while "UserProfileFragment" in await get_output(devices[index]):
-            devices[index].shell(f"input swipe 200 500 300 100")
+            devices[index].shell(f"input swipe 200 400 300 100 40")
             devices[index].shell(f"input tap 100 350")
-            await asyncio.sleep(1)
+            await asyncio.sleep(2)
             devices[index].shell(f"input keyevent 62")
             devices[index].shell(f"input tap 440 290")
             await asyncio.sleep(1)
-            print("newxt user")
             break
 
-    # devices[index].shell(f"am force-stop {app_name}")
+
+async def close_app(device):
+    device.shell(f"am force-stop {app_name}")
 
 
 async def main():
-    await start_apps()
+    # await start_apps()
     await asyncio.gather(
         *[loop_users(index, users_chunk) for index, users_chunk in enumerate(new_users)]
     )
+    await asyncio.gather(*[close_app(device) for device in enumerate(devices)])
+
     with open("used_users.txt", "a") as f:
-        f.write("\n".join(new_users))
+        f.write("\n".join(new_users_copy))
 
 
 asyncio.run(main())

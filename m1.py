@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# python3 m1.py && python m2.py ||
+# python3 m1.py && python3 m2.py ||
 
 import asyncio
 from playwright.async_api import async_playwright
@@ -75,7 +75,7 @@ async def m1():
             await page.wait_for_timeout(1000)
             await page.click('span[data-e2e="followers"]')
 
-            while len(new_users) < 100:
+            while len(new_users) < 200:
                 followers = await page.query_selector_all('p[class*="UniqueId"]')
                 try:
                     await followers[len(followers) - 1].scroll_into_view_if_needed()
