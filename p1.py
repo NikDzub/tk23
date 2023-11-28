@@ -119,7 +119,7 @@ async def p1():
             await page.wait_for_timeout(1000)
             await page.click('span[data-e2e="followers"]')
 
-            while len(new_users) < 100:
+            while len(new_users) < 200:
                 followers = await page.query_selector_all('p[class*="UniqueId"]')
                 try:
                     await followers[len(followers) - 1].scroll_into_view_if_needed()
@@ -146,7 +146,7 @@ async def p1():
             global new_users
             for user in new_users[index]:
                 try:
-                    await page.goto(f"https://tiktok.com/@{user}", wait_until="load")
+                    await page.goto(f"https://tiktok.com/@{user}")
                     # await page.wait_for_timeout(276000)
 
                     await page.wait_for_selector(
@@ -181,8 +181,8 @@ async def p1():
         with open("new_videos.txt", "w") as f:
             f.write("\n".join(new_videos))
 
-        print(new_users)
-        print(new_videos)
+        # print(new_users)
+        # print(new_videos)
         await context.close()
 
 

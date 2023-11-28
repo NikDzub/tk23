@@ -9,6 +9,7 @@ client = AdbClient(host="127.0.0.1", port=5037)
 app_name = "com.zhiliaoapp.musically"
 devices = client.devices()
 
+
 if len(devices) == 0:
     print("No devices")
     quit(0)
@@ -51,6 +52,21 @@ async def verify_load_app(device):
                 print(error)
 
 
+width = 480
+
+
+def pixel(x, y, device):
+    device.shell("screencap /sdcard/screencap.txt")
+    device.pull(
+        "/sdcard/screencap.txt",
+        "./screen.temp",
+    )
+    with open("./screen.temp", "rb") as f:
+        byte = f.read()[12:]
+        pixel = (width * y + x) * 4
+        return (byte[pixel], byte[pixel + 1], byte[pixel + 2])
+
+
 new_videos = []
 with open("new_videos.txt", "r", encoding="utf-8") as f:
     new_videos = f.read().splitlines()
@@ -67,17 +83,26 @@ async def start_apps():
 
 
 async def loop_vids(index, videos_chunk):
-    for vid in videos_chunk:
-        print(vid)
+    for i, vid in enumerate(videos_chunk):
+        print(f"{index} : ({i}/{len(videos_chunk)})")
         devices[index].shell(
             f"am start -W -a android.intent.action.VIEW -d {vid} {app_name}"
         )
-        await asyncio.sleep(1)
-        devices[index].shell(f"input keyevent 62")
+
+        # if pixel(440, 290, devices[index]) == (255, 255, 255):
+        #     print("not bookmarked yet")
+        # else:
+        #     print("bookamrkd allready")
+
         await asyncio.sleep(2)
         devices[index].shell(f"input keyevent 62")
-        devices[index].shell(f"input tap 440 290")
         # await asyncio.sleep(1)
+        # devices[index].shell(f"input tap 443 347")
+        # await asyncio.sleep(1)
+        # devices[index].shell(f"input tap 60 435")
+        await asyncio.sleep(1)
+        devices[index].shell(f"input tap 440 290")
+        await asyncio.sleep(1)
 
     # devices[index].shell(f"am force-stop {app_name}")
 
@@ -90,6 +115,9 @@ async def main():
             for index, videos_chunk in enumerate(new_videos)
         ]
     )
+    for device in devices:
+        device.shell(f"am force-stop {app_name}")
+
     with open("used_users.txt", "a") as f:
         f.write("\n".join(new_users))
 

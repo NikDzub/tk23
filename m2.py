@@ -68,23 +68,24 @@ async def start_apps():
 
 async def loop_users(index, users_chunk):
     for i, user in enumerate(users_chunk):
-        print(f"device #{index} : {user} ({i}/{len(users_chunk)})")
-        devices[index].shell(
-            f"am start -W -a android.intent.action.VIEW -d https://www.tiktok.com/@{user} {app_name}"
-        )
-        await asyncio.sleep(2)
-        while "UserProfileFragment" in await get_output(devices[index]):
-            devices[index].shell(f"input swipe 200 400 300 100 40")
-            devices[index].shell(f"input tap 100 350")
-            await asyncio.sleep(2)
-            devices[index].shell(f"input keyevent 62")
-            devices[index].shell(f"input tap 440 290")
-            await asyncio.sleep(1)
-            break
-
-
-async def close_app(device):
-    device.shell(f"am force-stop {app_name}")
+        try:
+            print(f"device #{index} : {user} ({i}/{len(users_chunk)})")
+            devices[index].shell(
+                f"am start -W -a android.intent.action.VIEW -d https://www.tiktok.com/@{user} {app_name}"
+            )
+            await asyncio.sleep(3)
+            while "UserProfileFragment" in await get_output(devices[index]):
+                devices[index].shell(f"input swipe 200 400 300 100 40")
+                await asyncio.sleep(1)
+                devices[index].shell(f"input tap 100 350")
+                await asyncio.sleep(2)
+                devices[index].shell(f"input keyevent 62")
+                await asyncio.sleep(1)
+                devices[index].shell(f"input tap 440 290")
+                await asyncio.sleep(1)
+                break
+        except:
+            pass
 
 
 async def main():
@@ -92,10 +93,12 @@ async def main():
     await asyncio.gather(
         *[loop_users(index, users_chunk) for index, users_chunk in enumerate(new_users)]
     )
-    await asyncio.gather(*[close_app(device) for device in enumerate(devices)])
 
     with open("used_users.txt", "a") as f:
         f.write("\n".join(new_users_copy))
+
+    for device in devices:
+        device.shell(f"am force-stop {app_name}")
 
 
 asyncio.run(main())

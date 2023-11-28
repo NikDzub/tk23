@@ -72,7 +72,7 @@ async def m1():
                 f"https://www.tiktok.com/@{random.choice(famouse_users)}",
                 wait_until="load",
             )
-            await page.wait_for_timeout(1000)
+            await page.wait_for_timeout(1003453450)
             await page.click('span[data-e2e="followers"]')
 
             while len(new_users) < 200:
