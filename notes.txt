@@ -1,2 +1,4 @@
 adb shell uiautomator dump 
 adb pull /sdcard/window_dump.xml ./
+
+adb shell pm path com.zhiliaoapp.musically
