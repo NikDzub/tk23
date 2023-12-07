@@ -102,7 +102,7 @@ async def p1():
         )
         # context.route("**/*", block_media)
         pg = context.pages[0]
-        # await pg.wait_for_timeout(435435345)
+        await pg.wait_for_timeout(435435345)
         await pg.close()
 
         context.on("response", filter_response)

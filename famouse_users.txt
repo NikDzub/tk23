@@ -1,4 +1,38 @@
-bellapoarch
-charlidamelio
-addisonre
-mrbeast
+{
+  "users": {
+    "bellapoarch": ["a", "b"],
+    "charlidamelio": [],
+    "addisonre": [],
+    "mrbeast": [],
+    "khaby.lame": [],
+    "kimberly.loaiza": [],
+    "zachking": [],
+    "cznburak": [],
+    "willsmith": [],
+    "therock": [],
+    "domelipa": [],
+    "bts_official_bighit": [],
+    "selenagomez": [],
+    "jasonderulo": [],
+    "dixiedamelio": [],
+    "spencerx": [],
+    "kyliejenner": [],
+    "lorengray": [],
+    "bayashi.tiktok": [],
+    "youneszarou": [],
+    "justmaiko": [],
+    "homm9k": [],
+    "billieeilish": [],
+    "karolg": [],
+    "kallmekris": [],
+    "brentrivera": [],
+    "bp_tiktok": [],
+    "williesalim": [],
+    "riyaz.14": [],
+    "itsjojosiwa": [],
+    "carlosferiag": [],
+    "joealbanese": [],
+    "avani": [],
+    "shakira": []
+  }
+}
