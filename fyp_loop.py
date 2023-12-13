@@ -42,16 +42,22 @@ def pixel(x, y, device):
 
 async def book_loop():
     already_saved = 0
-    while already_saved < 10:
+    while already_saved < 50:
         try:
+            # (250, 206, 21) yellow
+            # (229, 229, 229) white *transparent
             device.shell("input swipe 10 149 10 0 100")
             await asyncio.sleep(0.5)
             device.shell(f"input keyevent 62")
-            await asyncio.sleep(1)
+            await asyncio.sleep(0.5)
 
-            if pixel(447, 272, device) == (229, 229, 229):
-                device.shell(f"input tap 447 272")
-                await asyncio.sleep(1)
+            if pixel(447, 277, device) == (250, 206, 21):
+                already_saved = already_saved + 1
+                # print(already_saved)
+
+            else:
+                device.shell(f"input tap 447 277")
+                await asyncio.sleep(0.5)
                 # device.shell(f"input keyevent --longpress 22")
                 # await asyncio.sleep(1)
                 # device.shell(f"input keyevent --longpress 21")
@@ -60,20 +66,14 @@ async def book_loop():
                 # ui(
                 #     descriptionContains="Add or remove this video from Favorites"
                 # ).click()
-            else:
-                already_saved = already_saved + 1
-                print(already_saved)
-                if already_saved == 10:
-                    device.shell(f"am force-stop {app_name}")
 
-            await asyncio.sleep(1)
         except:
             already_saved = already_saved + 1
             print(already_saved)
-            if already_saved == 10:
-                device.shell(f"am force-stop {app_name}")
-                await asyncio.sleep(5)
             pass
+
+    device.shell(f"am force-stop {app_name}")
+    await asyncio.sleep(5)
 
 
 async def go_search(hash_tag):
