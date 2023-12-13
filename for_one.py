@@ -35,6 +35,10 @@ already_saved = 0
 
 async def p1():
     global already_saved
+    device.shell(
+        f"am start -W -a android.intent.action.VIEW -d https://www.tiktok.com/@coinitiktok {app_name}"
+    )
+
     while already_saved < 10:
         device.shell("input swipe 10 149 10 0 100")
         await asyncio.sleep(0.5)

@@ -98,10 +98,15 @@ async def p1():
         global new_users
 
         context = await p.firefox.launch_persistent_context(
-            user_data_dir=context_dir, headless=False
+            user_data_dir=context_dir,
+            headless=False,
+            # user_agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.3",
+            # is_mobile=True,
+            # viewport={"width": 400, "height": 800},
         )
         # context.route("**/*", block_media)
         pg = context.pages[0]
+
         await pg.wait_for_timeout(435435345)
         await pg.close()
 
@@ -119,7 +124,7 @@ async def p1():
             await page.wait_for_timeout(1000)
             await page.click('span[data-e2e="followers"]')
 
-            while len(new_users) < 200:
+            while len(new_users) < 10:
                 followers = await page.query_selector_all('p[class*="UniqueId"]')
                 try:
                     await followers[len(followers) - 1].scroll_into_view_if_needed()
@@ -146,7 +151,9 @@ async def p1():
             global new_users
             for user in new_users[index]:
                 try:
-                    await page.goto(f"https://tiktok.com/@{user}")
+                    await page.goto(
+                        f"https://tiktok.com/@{user}", wait_until="load", timeout=5000
+                    )
                     # await page.wait_for_timeout(276000)
 
                     await page.wait_for_selector(

@@ -13,6 +13,8 @@ import random
 fam_users_json = open("famouse_users.json")
 fam_users = json.load(fam_users_json)
 
+for user in fam_users["users"]:
+    print(user)
 
 context_dir = "contexts/firefox_01"
 context_dir = os.path.join(os.getcwd(), context_dir)
