@@ -1,23 +1,43 @@
+#!/usr/bin/env python3
 import asyncio
-from ppadb.client import Client as AdbClient
 import uiautomator2 as u2
 
 # uiautomatorviewer
 
-import os
-import shutil
-import json
-
-client = AdbClient(host="127.0.0.1", port=5037)
 app_name = "com.zhiliaoapp.musically"
-global devices
-devices = client.devices()
+comments = "com.zhiliaoapp.musically:id/bpp"
+add_comment = "com.zhiliaoapp.musically:id/bpu"
+send_comment = "com.zhiliaoapp.musically:id/brj"
+
+new_vids_txt = []
+with open("new_vids.txt", "r") as file:
+    lines = file.readlines()
+    for line in lines:
+        new_vids_txt.append(line.replace("\n", ""))
+
+comments_txt = []
+with open("comments.txt", "r") as file:
+    lines = file.readlines()
+    for line in lines:
+        comments_txt.append(line.replace("\n", ""))
+
 d = u2.connect("127.0.0.1:6555")
 
 
 async def main():
-    like = d(resourceId="com.zhiliaoapp.musically:id/cia")
-    print(like.info)
+    sess = d.session(app_name, attach=True)
+
+    for vid in new_vids_txt:
+        # sess.shell(f"am start -W -a android.intent.action.VIEW -d {vid} {app_name}")
+        sess.open_url(vid)
+        sess(resourceId=comments).click(10)
+
+        for comment in comments_txt:
+            sess(resourceId=add_comment).click(10)
+            sess(resourceId=add_comment).set_text(comment)
+            sess(resourceId=send_comment).click(10)
+
+    sess.shell(f"am force-stop {app_name}")
 
 
 asyncio.run(main())
