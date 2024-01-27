@@ -1,0 +1,54 @@
+/* Just a parent container for the videos */
+body {
+  background-color: white;
+}
+.cap {
+  display: none;
+  padding-top: 50px;
+}
+.videos {
+  margin: 20px auto;
+  max-width: 700px;
+}
+/* Individual video container */
+.video-wrap {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.video-wrap .placeholder {
+  max-width: 700px;
+  width: 100%;
+}
+.video-wrap .play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  max-width: 700px;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1; /* needed if using Bootstrap */
+  text-align: center;
+  color: #eaeaea;
+  background-color: rgba(216, 206, 206, 0.806);
+  border-radius: 50px;
+  transition: color, background-color 0.2s ease;
+}
+.play-btn svg {
+  color: red;
+  height: 50%;
+}
+.video-wrap .play-btn:hover,
+.video-wrap .play-btn:focus {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+.heading {
+  display: none;
+}

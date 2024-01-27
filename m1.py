@@ -43,7 +43,7 @@ async def filter_response(response):
                     user["user"]["privateAccount"] == False
                     and user["stats"]["diggCount"] > 1
                     and user["stats"]["heartCount"] > 1
-                    and user["stats"]["videoCount"] > 2
+                    and user["stats"]["videoCount"] > 3
                     and user["user"]["uniqueId"] not in new_users
                     and user["user"]["uniqueId"] not in used_users
                 ):

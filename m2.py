@@ -71,17 +71,20 @@ async def loop_users(index, users_chunk):
         try:
             print(f"device #{index} : {user} ({i}/{len(users_chunk)})")
             devices[index].shell(
-                f"am start -W -a android.intent.action.VIEW -d https://www.tiktok.com/@{user} {app_name}"
+                f'am start -W -a android.intent.action.VIEW -d "https://www.tiktok.com/@{user}" {app_name}'
             )
             await asyncio.sleep(3)
             while "UserProfileFragment" in await get_output(devices[index]):
                 devices[index].shell(f"input swipe 200 400 300 100 40")
                 await asyncio.sleep(1)
-                devices[index].shell(f"input tap 100 350")
+                devices[index].shell(
+                    f"input tap 50 268"
+                )  # allso clicks on the Wait popup
+                # devices[index].shell(f"input tap 100 350")
                 await asyncio.sleep(2)
                 devices[index].shell(f"input keyevent 62")
                 await asyncio.sleep(1)
-                devices[index].shell(f"input tap 440 290")
+                devices[index].shell(f"input tap 305 288")
                 await asyncio.sleep(1)
                 break
         except:

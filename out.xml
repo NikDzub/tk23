@@ -1,0 +1,1521 @@
+TASK 10088:com.zhiliaoapp.musically id=39 userId=0
+  ACTIVITY com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity bdb9615 pid=21607
+    Local Activity b0ba221 State:
+      mResumed=true mStopped=false mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={0.85 310mcc270mnc [en_US] ldltr sw376dp w376dp h492dp 136dpi nrml port night finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 320, 480) mAppBounds=Rect(0, 0 - 320, 439) mMaxBounds=Rect(0, 0 - 320, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      Active Fragments in 1b65e12:
+        #0: ReportFragment{f3bb9e3 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{1b65e12 in HostCallbacks{7a37fe0}}
+          mHost=android.app.Activity$HostCallbacks@7a37fe0
+          Child FragmentManager{8d3e299 in ReportFragment{f3bb9e3}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@7a37fe0
+              mContainer=android.app.Fragment$1@c98495e
+              mParent=ReportFragment{f3bb9e3 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{f3bb9e3 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@7a37fe0
+        mContainer=android.app.Activity$HostCallbacks@7a37fe0
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=false
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=true
+        mWindowVisibility=0
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: e10ccbd com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = true
+          mChannel = e10ccbd com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=true
+      mLastFrameTime=106417003 (5 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 320, 480)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(238, 0 - 308, 20) rotation=0}
+          InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][320,20] visible=true
+          InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,439][320,480] visible=true
+          InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,480] visible=true
+          InsetsSource type=ITYPE_RIGHT_GESTURES frame=[320,0][320,480] visible=true
+          InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][320,20] visible=true
+          InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,439][320,480] visible=true
+          InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][320,20] visible=true
+          InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,439][320,480] visible=true
+          InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+    View Hierarchy:
+      DecorView@168d7d[SplashActivity]
+        android.widget.LinearLayout{4648472 V.E...... ........ 0,0-320,439}
+          android.view.ViewStub{15350c3 G.E...... ......I. 0,0-0,0 #10201b3 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{ce6fd40 V.E...... ........ 0,0-320,439 #1020002 android:id/content}
+            X.4vN{f038479 V.E...... ........ 0,0-320,439}
+              X.8CG{57275be V.E...... ........ 0,0-320,439 #7f0b00a9 app:id/ok}
+                androidx.appcompat.widget.ViewStubCompat{90361f G.E...... ......I. 0,0-0,0 #7f0b00c3 app:id/p_}
+                androidx.appcompat.widget.ContentFrameLayout{8dead6c V.E...... ........ 0,0-320,439}
+              android.widget.FrameLayout{d2eef35 V.E...... ........ 0,0-320,439 #7f0b1924 app:id/e9p}
+                X.4OK{1dc2fca VFED..... ........ 0,0-320,439 #7f0b4f4b app:id/ocx}
+                  com.ss.android.ugc.aweme.ui.FragmentTabHost{18c153b VFE...... ........ 0,0-320,439 #7f0b271b app:id/gv7}
+                    com.ss.android.ugc.aweme.feed.ui.seekbar.VideoSeekBarMaskView{dbf3458 V.E...... ........ 0,0-320,439 #7f0b2713 app:id/guz}
+                      android.widget.FrameLayout{6c49b1 V.E...... ........ 0,0-320,439 #7f0b415f app:id/lrq}
+                        android.widget.FrameLayout{c757e96 V.E...... ........ 0,0-320,439 #7f0b1669 app:id/dqt}
+                          android.widget.FrameLayout{89cca17 V.E...... ........ 0,0-320,439 #7f0b3108 app:id/ipt}
+                          X.4O6{51f3e04 V.E...... ........ 0,0-320,439 #7f0b15fa app:id/dnt}
+                            X.Wki{e4acfed VFED..... ........ 0,0-320,439 #7f0b4f4b app:id/ocx}
+                              android.widget.FrameLayout{f82ee22 VFE...C.. ........ 0,0-320,439 #7f0b151f app:id/dhx}
+                                com.ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout{f99f0b3 V.ED..... ........ 0,0-320,439 #7f0b3535 app:id/jhn}
+                                  X.QH0{9543670 V.E...... ........ 0,0-320,439 #7f0b2673 app:id/gqo}
+                                    android.widget.LinearLayout{c117de9 V.E...... ........ 0,0-320,439}
+                                      android.view.View{305ca6e G.ED..... ......ID 0,0-320,0 #7f0b4460 app:id/mbe}
+                                      com.ss.android.ugc.aweme.common.widget.VerticalViewPager{c38e50f VFED..... ........ 0,0-320,439 #7f0b4f4b app:id/ocx}
+                                        com.ss.android.ugc.aweme.feed.VideoViewCellRootView{29e499c V.E...... ........ 0,0-320,439 #7f0b4f10 app:id/view_rootview}
+                                          android.view.ViewStub{27b0fa5 G.E...... ......I. 0,0-0,0 #7f0b4188 app:id/lsu}
+                                          com.ss.android.ugc.aweme.feed.ui.LongPressLayout{bc81f7a VFED..C.. ........ 0,0-320,439 #7f0b26aa app:id/long_press_layout}
+                                          X.PSa{28c32b G.E...... ......I. 0,0-0,0 #7f0b0517 app:id/ai3}
+                                          android.view.ViewStub{b146388 G.E...... ......I. 0,0-0,0 #7f0b3338 app:id/j4w}
+                                          X.AxV{1320121 GFED..... ......I. 0,0-0,0 #7f0b2fc1 app:id/igz}
+                                          android.widget.LinearLayout{f28b946 V.E...... ........ 0,0-320,439}
+                                            android.view.View{eee6707 V.ED..... ........ 0,0-320,0 #7f0b097b app:id/bbh}
+                                            android.widget.FrameLayout{5503034 V.E...... ........ 0,0-320,439 #7f0b4e98 app:id/o95}
+                                              android.widget.FrameLayout{e0c8e5d V.E...... ........ 0,0-320,439 #7f0b2fc0 app:id/player_view}
+                                                X.KTn{7a723d2 V.ED..... ........ 0,-64-320,504}
+                                              SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH, ON_DRAWABLE_HIDE, ON_DETACH_CONTROLLER, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                              android.widget.FrameLayout{5806ca3 V.E...... ........ 0,-64-320,504 #7f0b4dc4 app:id/o3e}
+                                                androidx.appcompat.widget.AppCompatImageView{1da1ba0 V.ED..... ........ 0,0-320,568 #7f0b4dc5 app:id/o3f}
+                                                android.view.View{c08b359 V.ED..... ........ 0,0-320,568 #7f0b4dc6 app:id/o3g}
+                                                android.widget.FrameLayout{62fab1e V.E...... ........ 0,0-320,568 #7f0b3e94 app:id/l9e}
+                                          android.view.View{fa32fff V.ED..... ........ 0,0-320,66 #7f0b1954 app:id/gradual_top}
+                                          X.4aA{f5551cc G.ED..... ......I. 0,0-0,0 #7f0b1955 app:id/e_z}
+                                          android.view.ViewStub{6082c15 G.E...... ......I. 0,0-0,0 #7f0b0518 app:id/ai4}
+                                          X.AnC{c275b2a V.E...... ........ 0,0-320,439 #7f0b292f app:id/h9j}
+                                          android.widget.FrameLayout{704cd1b V.E...... ........ 0,66-320,66 #7f0b2f72 app:id/iev}
+                                          android.widget.LinearLayout{16bbeb8 V.E...... ........ 0,0-320,439}
+                                            android.view.View{94c7491 V.ED..... ......ID 0,0-320,0 #7f0b3f3b app:id/lcx}
+                                            X.4OD{a37fff6 V.E...... ........ 0,0-320,568 #7f0b1df1 app:id/f5v}
+                                          android.view.ViewStub{8191ff7 G.E...... ......I. 0,0-0,0 #7f0b0157 app:id/t7}
+                                          android.view.ViewStub{a7a0e64 G.E...... ......I. 0,0-0,0 #7f0b26a9 app:id/gs5}
+                                          X.5vD{bb2c8cd V.E...... ........ 0,0-320,439 #7f0b14cf app:id/dfu}
+                                          android.view.ViewStub{fdc2582 G.E...... ......I. 0,0-0,0 #7f0b152b app:id/di8}
+                                          X.BTM{8b5c493 G.E...... ......I. 0,0-0,0 #7f0b1952 app:id/e_x}
+                                            android.widget.RelativeLayout{3fbacd0 V.E...... ......I. 0,0-0,0}
+                                              X.4aA{9b024c9 V.ED..... ......I. 0,0-0,0 #7f0b1585 app:id/dkn}
+                                              X.4aA{7ab17ce V.ED..... ......I. 0,0-0,0 #7f0b3941 app:id/k9n}
+                                              android.view.View{c6e16ef G.ED..... ......I. 0,0-0,0 #7f0b2c7b app:id/hvc}
+                                          android.widget.FrameLayout{1b6c5fc V.E...... ........ 0,0-320,439 #7f0b0943 app:id/b_z}
+                                          android.view.ViewStub{80d4485 G.E...... ......I. 0,0-0,0 #7f0b018a app:id/ui}
+                                          android.view.View{c64e2da V.ED..... ........ 0,294-320,439 #7f0b1950 app:id/gradual_bottom}
+                                          android.widget.RelativeLayout{2af330b V.E...... ........ 0,0-320,442 #7f0b5029 app:id/oix}
+                                            android.widget.RelativeLayout{ba845e8 V.E...... ........ 0,0-320,403 #7f0b4494 app:id/mct}
+                                              X.Av9{562a401 VFE...C.. ........ 240,323-320,403 #7f0b4e9a app:id/o97}
+                                              android.widget.FrameLayout{2be52a6 V.E...... ........ 0,309-0,309 #7f0b4ddf app:id/o45}
+                                              android.widget.RelativeLayout{a9bf4e7 V.E...... ........ 0,0-320,309 #7f0b0613 app:id/aow}
+                                                android.widget.FrameLayout{aafd894 V.E...... ......ID 0,343-320,343 #7f0b2f10 app:id/ic8}
+                                                android.widget.FrameLayout{7547f3d G.E...... ......ID 0,400-0,400 #7f0b3ccc app:id/kx6}
+                                                X.Av9{3ecf332 GFE...C.. ......ID 0,400-0,400 #7f0b3ccd app:id/kx7}
+                                                android.widget.FrameLayout{8a8f883 V.E...... ......ID 307,0-307,0 #7f0b014b app:id/sw}
+                                                android.widget.Space{3fbea00 I.ED..... ......I. 0,309-0,309 #7f0b2f71 app:id/ieu}
+                                                android.widget.FrameLayout{f8ed239 V.E...... ......ID 44,51-276,51 #7f0b4491 app:id/mcq}
+                                              android.widget.FrameLayout{4f3107e V.E...... ........ 0,309-320,403 #7f0b04dd app:id/agi}
+                                                android.widget.LinearLayout{9f899df V.E...... ........ 10,0-235,94 #7f0b04dc app:id/agh}
+                                                  android.widget.LinearLayout{885898c V.E...... ........ 0,0-225,94 #7f0b1deb app:id/f5p}
+                                                    android.view.ViewStub{f35a62c G.E...... ......I. 0,0-0,0 #7f0b1dec app:id/f5q}
+                                                    android.view.ViewStub{48158f5 G.E...... ......I. 0,0-0,0 #7f0b1ded app:id/f5r}
+                                                    X.Av9{6abb68a GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.AvA{7f2389f VFE...C.. ........ 0,0-225,0 #7f0b0c66 app:id/bvo}
+                                                      X.Av9{176f4fb VFE...C.. ........ 0,0-0,0 #7f0b0c6e app:id/bvw}
+                                                      X.Av9{36cf918 VFE...C.. ........ 0,0-0,0 #7f0b0c6e app:id/bvw}
+                                                    X.Av9{9db8f71 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{a96b156 GFE...C.. ......I. 0,0-0,0 #7f0b4d89 app:id/o1t}
+                                                        4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                        com.bytedance.tux.input.TuxTextView{ab5e5d7 V.ED..... ......ID 0,0-0,0 #7f0b4d8b app:id/o1v}
+                                                    X.Av9{6c48ec4 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{4c8b1ad VFE...C.. ........ 0,0-225,24 #7f0b0c64 app:id/bvm}
+                                                      android.widget.FrameLayout{8648ce2 V.E...... ........ 0,0-225,24}
+                                                        X.ILZ{e890873 GFED..CL. ......ID 0,0-0,0 #7f0b2812 app:id/h1u}
+                                                        X.4Rl{2a75d70 V.E...... ........ 0,0-225,24 #7f0b4ffb app:id/oho}
+                                                          androidx.constraintlayout.widget.ConstraintLayout{cddd330 VFE...C.. ........ 0,0-66,24 #7f0b4d81 app:id/o1l}
+                                                            com.bytedance.tux.input.TuxTextView{7ebbba9 V.ED..... ........ 5,5-60,19 #7f0b4b8c app:id/no1}
+                                                        X.CbR{42952e G.E...... ......I. 0,0-0,0 #7f0b4ffc app:id/ohp}
+                                                          androidx.constraintlayout.widget.ConstraintLayout{561b8cf V.E...... ......I. 0,0-0,0 #7f0b4d81 app:id/o1l}
+                                                            android.widget.FrameLayout{4f25c V.E...... ......I. 0,0-0,0 #7f0b2549 app:id/gim}
+                                                              4V9{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                              4V9{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                              4V9{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                            androidx.constraintlayout.widget.ConstraintLayout{31b6965 V.E...... ......I. 0,0-0,0 #7f0b4b8d app:id/no2}
+                                                              com.bytedance.tux.input.TuxTextView{5e6d63a V.ED..... ......ID 0,0-0,0 #7f0b4b8c app:id/no1}
+                                                        X.CbQ{36b12eb V.E...... ........ 0,0-225,23 #7f0b4ffd app:id/ohq}
+                                                          androidx.constraintlayout.widget.ConstraintLayout{11cd848 V.E...... ........ 0,0-29,24 #7f0b4d81 app:id/o1l}
+                                                            android.widget.LinearLayout{2de36e1 V.E...... ......ID 0,0-0,24 #7f0b1d51 app:id/f1j}
+                                                              android.widget.FrameLayout{5c1c06 V.E...... ......ID 0,0-0,24 #7f0b2549 app:id/gim}
+                                                                4V9{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                                4V9{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                                4V9{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                              com.bytedance.tux.input.TuxTextView{a65f2c7 V.ED..... ......ID 0,0-0,15 #7f0b4b8c app:id/no1}
+                                                            android.widget.FrameLayout{a4b30f4 G.E...... ......I. 0,0-0,0 #7f0b33fa app:id/j_5}
+                                                              com.bytedance.tux.icon.TuxIconView{ba6601d V.ED..... ......ID 0,0-0,0 #7f0b20d5 app:id/fou}
+                                                        X.4Rj{a8df292 G.E...... ......I. 0,0-0,0 #7f0b4ffa app:id/ohn}
+                                                          androidx.constraintlayout.widget.ConstraintLayout{d44f463 V.E...... ......I. 0,0-0,0 #7f0b4d81 app:id/o1l}
+                                                            com.bytedance.tux.input.TuxTextView{646860 V.ED..... ......ID 0,0-0,0 #7f0b4b8c app:id/no1}
+                                                    X.Av9{ccde119 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{94a5de GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{18873bf GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{f17aa8c GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{75275d5 VFE...C.. ........ 0,29-225,48 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{5c141ea VFE...C.. ........ 0,0-80,19 #7f0b3759 app:id/jwg}
+                                                        X.0dc{a5a8cdb VFED..C.. ........ 0,0-80,19 #7f0b432c app:id/title}
+                                                        android.widget.LinearLayout{bdae378 G.E...... ......I. 0,0-0,0 #7f0b3cf8 app:id/kyc}
+                                                          com.bytedance.tux.icon.TuxIconView{4519a51 V.ED..... ......ID 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{f6992b6 V.ED..... ......ID 0,0-0,0 #7f0b3cf7 app:id/kyb}
+                                                          X.4u6{96b1bb7 G.E...... ......I. 0,0-0,0 #7f0b3cf6 app:id/kya}
+                                                            android.widget.LinearLayout{b96bf24 V.E...... ......I. 0,0-0,0 #7f0b29fe app:id/he5}
+                                                              com.bytedance.tux.input.TuxTextView{7448a8d G.ED..... ......ID 0,0-0,0 #7f0b482f app:id/n1r}
+                                                              android.widget.LinearLayout{742442 V.E...... ......I. 0,0-0,0}
+                                                                X.4XI{18bbc53 G.E...... ......I. 0,0-0,0 #7f0b3562 app:id/jiv}
+                                                                com.bytedance.tux.input.TuxTextView{712a990 V.ED..... ......ID 0,0-0,0 #7f0b4829 app:id/n1l}
+                                                                X.4XI{7fc4289 G.E...... ......I. 0,0-0,0 #7f0b3561 app:id/jiu}
+                                                              X.4XI{1a4428e G.E...... ......I. 0,0-0,0 #7f0b3563 app:id/jiw}
+                                                        X.Av9{70bcaaf VFE...C.. ......ID 80,9-80,9 #7f0b419c app:id/ltd}
+                                                        com.bytedance.tux.input.TuxTextView{a20cebc G.ED..... ......ID 0,0-0,0 #7f0b49ea app:id/ncq}
+                                                    X.Av9{5d7e45 VFE...C.. ........ 0,53-225,89 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{2a5f99a V.E...... ........ 0,0-225,36}
+                                                        android.widget.FrameLayout{9d462cb V.E...... ........ 0,0-225,36 #7f0b0f46 app:id/cei}
+                                                          android.widget.LinearLayout{98a1aa8 VFE...C.. ........ 0,0-225,36 #7f0b0f73 app:id/cfq}
+                                                            X.4Fb{9dcb9c1 V.E...... ........ 0,0-225,36 #7f0b0f5e app:id/cf6}
+                                                              com.bytedance.tux.input.TuxTextLayoutView{fda1566 VFED..C.. ........ 0,0-225,36 #7f0b0f37 app:id/desc}
+                                                            android.view.View{54460a7 GFED..C.. ......I. 0,0-0,0 #7f0b43b0 app:id/m7n}
+                                                          com.bytedance.tux.input.TuxTextView{bba3954 GFED..C.. ......ID 0,0-0,0 #7f0b4b58 app:id/nmm}
+                                                          android.widget.LinearLayout{6ba30fd V.E...... ......ID 0,0-225,0 #7f0b08f0 app:id/b8q}
+                                                            android.widget.LinearLayout{8e221f2 G.E...... ......I. 0,0-0,0 #7f0b08f2 app:id/b8s}
+                                                              com.bytedance.tux.input.TuxTextView{1cc6043 V.ED..... ......ID 0,0-0,0 #7f0b08f3 app:id/b8t}
+                                                              com.bytedance.tux.icon.TuxIconView{2b96c0 V.ED..... ......ID 0,0-0,0 #7f0b08f1 app:id/b8r}
+                                                            android.view.View{2fddff9 V.ED..... ......ID 0,0-225,0}
+                                                            com.bytedance.tux.input.TuxTextView{3ec6b3e G.ED..... ......ID 0,0-0,0 #7f0b2a97 app:id/hi_}
+                                                        android.widget.LinearLayout{44abd9f V.E...... ......ID 0,36-225,36}
+                                                          com.bytedance.tux.input.TuxTextView{1935eec G.ED..... ......ID 0,0-0,0 #7f0b2dbc app:id/i41}
+                                                          X.PHR{93382b5 G.E...... ......I. 0,0-0,0 #7f0b2dbd app:id/i42}
+                                                          X.PHR{9bffd4a G.E...... ......I. 0,0-0,0 #7f0b1a70 app:id/ehm}
+                                                        com.bytedance.tux.input.TuxTextView{72794bb G.ED..... ......ID 0,0-0,0 #7f0b32e2 app:id/j2k}
+                                                        com.bytedance.tux.tag.TuxTag{ecd7dd8 G.ED..... ......ID 0,0-0,0 #7f0b44d5 app:id/mek}
+                                                        com.bytedance.tux.input.TuxTextView{6e69531 G.ED..... ......ID 0,0-0,0 #7f0b0296 app:id/a1r}
+                                                    X.AvB{a70a767 G.E...... ......I. 0,0-0,0 #7f0b0c62 app:id/bvk}
+                                                    X.Av9{688a416 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{930c197 V.E...... ......I. 0,0-0,0}
+                                                        android.widget.FrameLayout{6889f84 G.E...... ......I. 0,0-0,0 #7f0b4501 app:id/mfr}
+                                                        android.widget.FrameLayout{cde536d G.E...... ......I. 0,0-0,0 #7f0b110a app:id/cqr}
+                                                        android.widget.FrameLayout{b62eba2 V.E...... ......I. 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{e35e033 GFED..C.. ......ID 0,0-0,0}
+                                                          android.widget.LinearLayout{1b22ff0 G.E...... ......I. 0,0-0,0}
+                                                            android.widget.ImageView{719b969 V.ED..... ......ID 0,0-0,0}
+                                                            com.bytedance.tux.input.TuxTextView{ca81fee V.ED..... ......ID 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{d644c8f GFED..C.. ......ID 0,0-0,0}
+                                                    X.Av9{8a25b1c GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{88b8325 V.E...... ......I. 0,0-0,0 #7f0b25b5 app:id/glj}
+                                                        android.widget.FrameLayout{8fa4cfa V.E...... ......I. 0,0-0,0}
+                                                          android.widget.LinearLayout{96322ab G.E...... ......I. 0,0-0,0 #7f0b2948 app:id/h_8}
+                                                            com.bytedance.tux.icon.TuxIconView{f080d08 V.ED..... ......ID 0,0-0,0 #7f0b2947 app:id/h_7}
+                                                            com.bytedance.tux.input.TuxTextView{6962ca1 V.ED..... ......ID 0,0-0,0 #7f0b2949 app:id/h_9}
+                                                          androidx.appcompat.widget.AppCompatImageView{5103ec6 G.ED..... ......I. 0,0-0,0 #7f0b294f app:id/h_e}
+                                                        android.widget.FrameLayout{e2f3e87 V.E...... ......I. 0,0-0,0}
+                                                          com.bytedance.tux.icon.TuxIconView{294f1b4 VFED..C.. ......ID 0,0-0,0 #7f0b29aa app:id/hbv}
+                                                        android.widget.FrameLayout{47f1dd V.E...... ......I. 0,0-0,0}
+                                                          X.4kn{4ee68a2 VFED..C.. ......I. 0,0-0,0 #7f0b29dd app:id/hd9}
+                                                        android.widget.FrameLayout{8418152 V.E...... ......I. 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{b73c23 GFED..C.. ......ID 0,0-0,0 #7f0b29e1 app:id/hdc}
+                                                    X.Av9{8697520 VFE...C.. ........ 0,94-225,94 #7f0b0c64 app:id/bvm}
+                                                      android.view.ViewStub{d56ced9 G.E...... ......I. 0,0-0,0 #7f0b14d6 app:id/dfz}
+                                                    X.Av9{5d2609e GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      androidx.constraintlayout.widget.ConstraintLayout{c37777f V.E...... ......I. 0,0-0,0 #7f0b151d app:id/dhv}
+                                                        com.bytedance.tux.icon.TuxIconView{540c34c V.ED..... ......ID 0,0-0,0 #7f0b1b5a app:id/eny}
+                                                        com.bytedance.tux.icon.TuxIconView{dc7f95 G.ED..... ......ID 0,0-0,0 #7f0b03e5 app:id/a_t}
+                                                        com.bytedance.tux.input.TuxTextView{effe8aa V.ED..... ......ID 0,0-0,0 #7f0b4a71 app:id/ngd}
+                                                    X.AvA{66f10c8 VFE...C.. ........ 0,94-225,94 #7f0b0c65 app:id/bvn}
+                                                    X.Av9{9560c9b GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      X.Ob8{c5cc838 GFE...C.. ......I. 0,0-0,0 #7f0b2a27 app:id/hf9}
+                                                    X.Av9{bd28011 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{9cbe576 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                android.widget.FrameLayout{6621c0b V.E...... ........ 10,0-235,0 #7f0b0612 app:id/aov}
+                                                  android.widget.FrameLayout{afed777 G.E...... ......I. 0,0-0,0 #7f0b3287 app:id/j04}
+                                                  android.widget.FrameLayout{1322fe4 G.E...... ......I. 0,0-0,0 #7f0b0e6f app:id/c9q}
+                                                  android.widget.FrameLayout{b4e0c4d G.E...... ......I. 0,0-0,0 #7f0b4e92 app:id/o8z}
+                                                    android.widget.LinearLayout{888e302 G.E...... ......I. 0,0-0,0}
+                                                      android.widget.LinearLayout{cff7413 V.E...... ......I. 0,0-0,0 #7f0b4372 app:id/m60}
+                                                        com.bytedance.tux.input.TuxTextView{7d46650 V.ED..... ......ID 0,0-0,0 #7f0b4335 app:id/m4c}
+                                                        com.bytedance.tux.icon.TuxIconView{e7c2049 VFED..C.. ......ID 0,0-0,0 #7f0b0acf app:id/bko}
+                                                      X.DT7{e262d4e V.E...... ......I. 0,0-0,0 #7f0b4cd5 app:id/nwy}
+                                                        android.widget.FrameLayout{633e6f V.E...... ......ID 0,0-0,0 #7f0b3559 app:id/jim}
+                                                          X.DLz{21977c GFED..... ......I. 0,0-0,0 #7f0b30f1 app:id/ip7}
+                                                          X.Bxb{5d7805 G.E...... ......I. 0,0-0,0 #7f0b3535 app:id/jhn}
+                                                            X.4MR{b3bd05a V.E...... ......I. 0,0-0,0}
+                                                              X.4G5{18f528b V.ED..... ......I. 0,0-0,0}
+                                                            X.DLz{7aeaf68 GFED..... ......I. 0,0-0,0 #7f0b30f2 app:id/ip8}
+                                                          X.4Ui{1428f81 G.E...... ......I. 0,0-0,0 #7f0b3c4f app:id/kts}
+                                                            android.widget.LinearLayout{fd69826 V.E...... ......I. 0,0-0,0}
+                                                          X.TOp{41e8c67 G.E...... ......I. 0,0-0,0 #7f0b3e6b app:id/l8a}
+                                                  android.widget.FrameLayout{e735a14 G.E...... ......I. 0,0-0,0 #7f0b3031 app:id/ik0}
+                                                  android.widget.LinearLayout{c07a2bd V.E...... ......ID 0,0-225,0 #7f0b0c11 app:id/btd}
+                                                    android.widget.FrameLayout{e0410b2 G.E...... ......I. 0,0-0,0 #7f0b0122 app:id/ru}
+                                              android.widget.FrameLayout{7d8803 G.E...... ......I. 0,0-0,0 #7f0b0140 app:id/ad_feed_card_container_v2}
+                                              X.Av9{a360380 VFE...C.. ........ 154,0-166,25 #7f0b21ec app:id/fwd}
+                                                android.widget.LinearLayout{310adb9 V.E...... ........ 0,0-12,25 #7f0b3cc8 app:id/kx2}
+                                                  android.widget.FrameLayout{91e85fe V.E...... ......ID 3,0-3,25 #7f0b3cc7 app:id/kx1}
+                                                  android.widget.FrameLayout{f46a15f V.E...... ......ID 9,0-9,25 #7f0b3cc3 app:id/kwx}
+                                              X.AvA{7cd37db VFE...C.. ........ 0,117-320,403 #7f0b1def app:id/f5t}
+                                                android.view.ViewStub{4b7d7ac G.E...... ......I. 0,0-0,0 #7f0b1df0 app:id/f5u}
+                                                X.Av9{1056c75 VFE...C.. ........ 275,0-320,56 #7f0b0c64 app:id/bvm}
+                                                  android.widget.RelativeLayout{dd9040a V.E...... ........ 0,0-45,56}
+                                                    android.widget.RelativeLayout{e5df47b V.E...... ........ 0,3-45,48 #7f0b0499 app:id/aeo}
+                                                      X.SHM{a0c298 V.ED..... ........ 3,3-42,42 #7f0b1646 app:id/dpv}
+                                                        4kp{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                                        X.Vrb{94d5af1 G.ED..... ......I. 0,0-0,0}
+                                                      android.view.View{f0b56d6 V.ED..... ........ 2,2-42,42 #7f0b4ce5 app:id/nxd}
+                                                      androidx.appcompat.widget.AppCompatImageView{bcd5d57 G.ED..... ......I. 0,0-0,0 #7f0b1fe5 app:id/fic}
+                                                      X.4Eg{12b7044 G.ED..... ......I. 0,0-0,0 #7f0b4ce0 app:id/nx9}
+                                                      SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DRAWABLE_HIDE, ON_DETACH_CONTROLLER, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                                      X.Pgg{44bb52d I.E...... ......ID 5,5-40,40 #7f0b4ce6 app:id/nxe}
+                                                        4kp{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                                        com.bytedance.tux.input.TuxTextView{33e0a62 G.ED..... ......ID 0,0-0,0}
+                                                    4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_CLEAR_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                                    android.widget.RelativeLayout{26077f3 VFE...C.. ........ 0,34-45,56 #7f0b16ff app:id/duv}
+                                                      X.TQt{914cb0 G.ED..... ......I. 14,0-31,17 #7f0b16e8 app:id/du9}
+                                                      com.bytedance.tux.icon.TuxIconView{35b7729 V.ED..... ........ 11,0-34,20 #7f0b170a app:id/dv6}
+                                                      com.bytedance.tux.icon.TuxIconView{ef66aae G.ED..... ......ID 0,0-0,0 #7f0b1061 app:id/cm6}
+                                                      com.bytedance.tux.icon.TuxIconView{400a04f G.ED..... ......ID 0,0-0,0 #7f0b1037 app:id/cl1}
+                                                X.Av9{13683dc VFE...C.. ........ 276,56-320,98 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{88b5ce5 VFE...C.. ........ 0,0-44,42 #7f0b0fd5 app:id/cid}
+                                                    android.widget.FrameLayout{7c283ba V.E...C.. ........ 0,0-44,38 #7f0b0fd1 app:id/ci_}
+                                                      X.B07{dd0f26b V.ED..... ........ 3,0-41,38 #7f0b0fcf app:id/ci8}
+                                                    android.widget.RelativeLayout{59601c8 V.E...... ........ 2,38-41,42}
+                                                      com.bytedance.tux.input.TuxTextView{e19e261 V.ED..C.. ........ 2,-8-36,4 #7f0b0fd2 app:id/cia}
+                                                    com.bytedance.tux.input.TuxTextView{c052186 G.ED..... ......ID 0,0-0,0 #7f0b0fd4 app:id/cic}
+                                                X.Av9{20a4a47 VFE...CL. ........ 276,98-320,140 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{aed7274 VFE...CL. ........ 0,0-44,42 #7f0b0bea app:id/bsb}
+                                                    android.widget.FrameLayout{9b1439d V.E...CL. ........ 0,0-44,38 #7f0b0b86 app:id/bpm}
+                                                      android.widget.FrameLayout{b81d012 V.E...... ........ 3,0-41,38 #7f0b0ba0 app:id/bqb}
+                                                        androidx.appcompat.widget.AppCompatImageView{39743e3 V.ED..... ........ 5,5-32,32 #7f0b0b9a app:id/bq6}
+                                                        androidx.appcompat.widget.AppCompatImageView{2a941e0 G.ED..... ......ID 0,0-0,0 #7f0b0b95 app:id/bq1}
+                                                      com.bytedance.tux.input.TuxTextView{7637c99 GFED..CL. ......ID 0,0-0,0 #7f0b0b8f app:id/bpv}
+                                                    android.widget.RelativeLayout{ca8db5e V.E...... ........ 6,38-37,42}
+                                                      com.bytedance.tux.input.TuxTextView{f703b3f V.ED..CL. ........ 2,-8-28,4 #7f0b0b89 app:id/bpp}
+                                                X.Av9{6909c0c VFE...C.. ........ 276,140-320,182 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{8664955 V.E...C.. ........ 0,0-44,42 #7f0b14a7 app:id/der}
+                                                    android.widget.FrameLayout{aa34f6a V.E...... ........ 0,0-44,38 #7f0b1494 app:id/de9}
+                                                      X.B08{fb74c5b V.ED..... ........ 3,0-41,38 #7f0b1491 app:id/de6}
+                                                    android.widget.RelativeLayout{3b16cf8 V.E...... ........ 6,38-37,42}
+                                                      com.bytedance.tux.input.TuxTextView{18f25d1 V.ED..... ........ 2,-8-28,4 #7f0b1496 app:id/dea}
+                                                X.Av9{81ef836 VFE...C.. ........ 276,182-320,235 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{4945337 VFE...C.. ........ 0,0-44,53 #7f0b0fd5 app:id/cid}
+                                                    androidx.constraintlayout.widget.ConstraintLayout{e1c97bd VFE...C.. ........ 0,0-44,43 #7f0b3ae2 app:id/kjx}
+                                                      4VL{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_CLEAR_CONTROLLER, ON_HOLDER_ATTACH, ON_CLEAR_CONTROLLER, ON_SET_CONTROLLER, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                                      com.bytedance.tux.icon.TuxIconView{80c60a4 V.ED..... ........ 25,19-40,34 #7f0b1067 app:id/cmb}
+                                                    android.widget.RelativeLayout{58f4e0d V.E...... ........ 7,43-37,53}
+                                                      com.bytedance.tux.input.TuxTextView{2da61c2 VFED..C.. ........ 2,-8-27,4 #7f0b3ae5 app:id/kk0}
+                                                X.Av9{ed0ebd3 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                X.Av9{f00e310 VFE...C.. ........ 0,194-320,274 #7f0b0c64 app:id/bvm}
+                                                  android.widget.RelativeLayout{6efbe09 V.E...... ........ 0,0-320,80}
+                                                    android.view.View{3f0d80e V.ED..... ........ 320,46-320,80 #7f0b29b9 app:id/hc_}
+                                                    X.C5r{834722f V.E...... ........ 240,0-306,66 #7f0b2b7b app:id/hof}
+                                                    android.widget.FrameLayout{544750a V.E...C.. ........ 272,39-320,80 #7f0b29b3 app:id/hc4}
+                                                      android.widget.FrameLayout{879203c G.E...... ......I. 0,0-0,0 #7f0b29ec app:id/hdn}
+                                                        android.widget.FrameLayout{dcd31c5 V.E...... ......I. 0,0-0,0 #7f0b29eb app:id/hdm}
+                                                          com.bytedance.tux.icon.TuxIconView{8e6671a V.ED..... ......ID 0,0-0,0 #7f0b29ed app:id/hdo}
+                                                          com.bytedance.tux.input.TuxTextView{5a0024b V.ED..... ......ID 0,0-0,0 #7f0b29ee app:id/hdp}
+                                                        com.bytedance.tux.icon.TuxIconView{6d60428 G.ED..... ......ID 0,0-0,0 #7f0b0d52 app:id/c22}
+                                                      X.Av9{d542541 V.E...C.. ........ 0,0-48,41 #7f0b2972 app:id/hac}
+                                                        android.widget.FrameLayout{173dae6 V.E...... ........ 7,7-41,41 #7f0b2970 app:id/haa}
+                                                          android.widget.FrameLayout{f851a69 V.E...... ........ 0,0-35,34 #7f0b2973 app:id/had}
+                                                            4YS{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_SET_CONTROLLER, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                                            4YS{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH, ON_SET_CONTROLLER, ON_HOLDER_ATTACH, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                                          com.bytedance.tux.input.TuxTextView{eea7827 G.ED..... ......ID 0,0-0,0 #7f0b427c app:id/lze}
+                                                X.Av9{f9b3ad4 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                              android.widget.FrameLayout{4fcd47d V.E...... ........ 0,403-0,403 #7f0b15bf app:id/dm8}
+                                            android.widget.LinearLayout{937bd51 V.E...... ........ 0,403-320,403 #7f0b1de4 app:id/f5i}
+                                              X.Av9{e12bf72 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                              X.Av9{17b5526 VFE...C.. ......ID 0,0-320,0 #7f0b0c66 app:id/bvo}
+                                              X.Av9{87c6fc3 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                            android.widget.FrameLayout{adb3040 V.E...... ........ 0,402-320,403 #7f0b1dea app:id/f5o}
+                                              android.widget.FrameLayout{9873b79 V.E...... ......I. 0,0-320,1}
+                                                X.Eff{b4960be V.ED..... ........ 0,0-320,1 #7f0b043d app:id/ac7}
+                                                X.4ue{f57d6d8 I.E...... ........ 0,0-320,1 #7f0b23cd app:id/g9d}
+                                                  android.widget.FrameLayout{aac451f V.E...... ......ID 0,0-320,0}
+                                                    android.view.View{d63106c V.ED..... ......ID 0,0-320,0 #7f0b23c4 app:id/g95}
+                                                    android.view.View{1b71635 V.ED..... ......ID 0,0-320,0 #7f0b23d3 app:id/g9j}
+                                                X.4L2{5b6caca I.ED..... ......I. 0,0-320,1 #7f0b4e3b app:id/o6m}
+                                            X.BJ0{2da143b G.E...... ......I. 0,0-0,0 #7f0b0ebe app:id/cav}
+                                            X.Aey{9a6c758 G.ED..... ......I. 0,0-0,0 #7f0b4a53 app:id/nfk}
+                                            com.bytedance.tux.input.TuxTextView{2cfe0b1 G.ED..... ......I. 0,0-0,0 #7f0b4bf0 app:id/nqq}
+                                            android.widget.RelativeLayout{2dec996 V.E...... ........ 0,0-320,403 #7f0b0713 app:id/avu}
+                                              android.widget.FrameLayout{a4bb917 G.E...... ......I. 0,0-0,0 #7f0b229a app:id/g13}
+                                              android.widget.FrameLayout{36d0104 V.E...... ........ 13,185-259,403 #7f0b3f69 app:id/le6}
+                                              android.widget.FrameLayout{8d0d6ed G.E...... ......I. 0,0-0,0 #7f0b013f app:id/ad_feed_card_container}
+                                            android.widget.FrameLayout{ab5e922 G.E...... ......I. 0,0-0,0 #7f0b17d3 app:id/e0l}
+                                          android.widget.FrameLayout{ec8cfb3 V.E...... ........ 0,0-320,439 #7f0b2f73 app:id/iew}
+                                            android.widget.RelativeLayout{23b2970 V.E...... ........ 0,0-320,439}
+                                              X.4OE{670f4e9 V.E...... ........ 0,0-320,439 #7f0b36c5 app:id/jsg}
+                                                X.4EJ{ded756e G.ED..... ......I. 0,0-0,0}
+                                                X.4EI{8f6b40f G.ED..... ......I. 0,0-0,0}
+                                              X.4aV{e816c9c G.E...... ......I. 0,0-0,0 #7f0b4427 app:id/m_v}
+                                                com.bytedance.tux.input.TuxTextView{8daf6a5 V.ED..... ......ID 0,0-0,0}
+                                                com.bytedance.tux.icon.TuxIconView{4ff7a7a V.ED..... ......ID 0,0-0,0}
+                                                com.bytedance.tux.icon.TuxIconView{c74822b V.ED..... ......ID 0,0-0,0}
+                                          android.widget.FrameLayout{586b688 V.E...... ........ 0,0-320,439 #7f0b1672 app:id/dr2}
+                                          android.widget.FrameLayout{b295821 G.E...... ......I. 0,0-0,0 #7f0b1615 app:id/doj}
+                                          android.widget.FrameLayout{3fac446 G.E...... ......I. 0,0-0,0 #7f0b1616 app:id/dok}
+                                          android.widget.FrameLayout{db71607 V.E...... ........ 0,0-320,439 #7f0b0150 app:id/t0}
+                                          X.4uA{14b334 G.E...... ......I. 0,0-0,0 #7f0b2829 app:id/h2g}
+                                            androidx.constraintlayout.widget.ConstraintLayout{5a2555d V.E...... ......I. 0,0-0,0 #7f0b2828 app:id/h2f}
+                                              Pf6{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              com.bytedance.tux.input.TuxTextView{f0eded2 V.ED..... ......ID 0,0-0,0 #7f0b284b app:id/h3d}
+                                              androidx.appcompat.widget.AppCompatImageView{9a50ba3 V.ED..... ......I. 0,0-0,0 #7f0b2848 app:id/h3a}
+                                              com.bytedance.tux.input.TuxTextView{7e3cea0 V.ED..... ......ID 0,0-0,0 #7f0b2847 app:id/h3_}
+                                              com.bytedance.tux.input.TuxTextView{4b3ea59 V.ED..... ......ID 0,0-0,0 #7f0b2849 app:id/h3b}
+                                              androidx.appcompat.widget.AppCompatImageView{bd8161e V.ED..... ......ID 0,0-0,0}
+                                          android.widget.FrameLayout{af2beff G.E...... ......I. 0,0-0,0 #7f0b0c0c app:id/bt9}
+                                          android.view.ViewStub{7c734cc G.E...... ......I. 0,0-0,0 #7f0b14d8 app:id/dg1}
+                                          android.view.ViewStub{3afd315 G.E...... ......I. 0,0-0,0 #7f0b09d4 app:id/bdw}
+                                          android.widget.FrameLayout{b6b762a V.E...... ........ 0,0-320,439 #7f0b0146 app:id/sr}
+                                            android.widget.LinearLayout{93e4c1b GFE...C.. ......I. 0,0-0,0 #7f0b14d3 app:id/dfy}
+                                              4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              com.bytedance.tux.input.TuxTextView{298d1b8 VFED..C.. ......ID 0,0-0,0 #7f0b0171 app:id/tv}
+                                              4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              android.widget.LinearLayout{7478b91 VFE...C.. ......I. 0,0-0,0 #7f0b01ac app:id/vf}
+                                                com.bytedance.tux.input.TuxTextView{922caf6 V.ED..... ......I. 0,0-0,0 #7f0b0158 app:id/t8}
+                                                com.bytedance.tux.input.TuxTextView{deb8ef7 V.ED..... ......I. 0,0-0,0 #7f0b01ab app:id/ve}
+                                              android.widget.LinearLayout{ce55164 VFE...C.. ......I. 0,0-0,0 #7f0b0168 app:id/tn}
+                                                X.4GM{3c84fcd V.ED..... ......ID 0,0-0,0 #7f0b0195 app:id/ut}
+                                                android.view.View{a28a082 V.ED..... ......I. 0,0-0,0 #7f0b0167 app:id/tm}
+                                                com.bytedance.tux.input.TuxTextView{ac02393 V.ED..... ......ID 0,0-0,0 #7f0b0101 app:id/qy}
+                                              X.PR4{5581fd0 VFED..C.. ......ID 0,0-0,0 #7f0b0118 app:id/rk}, text: 
+                                              android.widget.LinearLayout{b171bc9 VFE...C.. ......I. 0,0-0,0 #7f0b018f app:id/un}
+                                                com.bytedance.tux.input.TuxTextView{9c442ce V.ED..... ......ID 0,0-0,0}
+                                                com.bytedance.tux.input.TuxTextView{e3f65ef V.ED..... ......ID 0,0-0,0 #7f0b018e app:id/um}
+                                                com.bytedance.tux.input.TuxTextView{7e768fc V.ED..... ......I. 0,0-0,0 #7f0b0199 app:id/ux}
+                                              X.4UN{e6cab85 VFE...C.. ......I. 0,0-0,0 #7f0b01a9 app:id/vc}
+                                              android.widget.Space{e65bdda I.ED..... ......I. 0,0-0,0}
+                                              com.bytedance.tux.input.TuxTextView{1c6720b VFED..C.. ......I. 0,0-0,0 #7f0b14d1 app:id/dfw}
+                                              com.bytedance.tux.input.TuxTextView{7c018e8 VFED..C.. ......I. 0,0-0,0 #7f0b14d7 app:id/dg0}
+                                            android.view.ViewStub{fd17b01 G.E...... ......I. 0,0-0,0 #7f0b4f16 app:id/obh}
+                                          androidx.constraintlayout.widget.ConstraintLayout{371dda6 V.E...... ........ 0,0-320,44 #7f0b1491 app:id/de6}
+                                            androidx.appcompat.widget.AppCompatImageView{d6823e7 V.ED..... ........ 276,0-320,44 #7f0b1493 app:id/de8}
+                                          android.view.ViewStub{bf1db94 G.E...... ......I. 0,0-0,0 #7f0b152c app:id/di9}
+                                          android.view.ViewStub{f59c63d G.E...... ......I. 0,0-0,0 #7f0b173e app:id/dwk}
+                                          android.view.ViewStub{3ce2e32 G.E...... ......I. 0,0-0,0 #7f0b3328 app:id/j4g}
+                                          com.bytedance.tux.input.TuxTextView{d891783 G.ED..... ......ID 0,0-0,0 #7f0b4a81 app:id/ngt}
+                                          androidx.appcompat.widget.AppCompatImageView{adb1d00 V.ED..... ........ 134,194-185,245 #7f0b2f9a app:id/ify}
+                                          android.view.ViewStub{218939 G.E...... ......I. 0,0-0,0 #7f0b005f app:id/mk}
+                                          android.view.ViewStub{12cfb7e G.E...... ......I. 0,0-0,0 #7f0b0bf1 app:id/bsi}
+                                          android.view.ViewStub{63ba8df G.E...... ......I. 0,0-0,0 #7f0b1960 app:id/ea_}
+                                          android.view.ViewStub{55092c G.E...... ......I. 0,0-0,0 #7f0b352f app:id/jhh}
+                                          android.view.ViewStub{1087ff5 G.E...... ......I. 0,0-0,0 #7f0b14e6 app:id/dge}
+                                          android.view.ViewStub{419518a G.E...... ......I. 0,0-0,0 #7f0b0971 app:id/bb8}
+                                          android.view.ViewStub{5bf3fb G.E...... ......I. 0,0-0,0 #7f0b3549 app:id/ji7}
+                                          android.view.View{a9f8c18 V.ED..... ........ 0,0-320,20 #7f0b3bff app:id/krm}
+                                          com.ss.android.ugc.aweme.feed.assem.quickcomment.emojianim.EmojiAnimPlayground{52e2671 G.ED..... ......I. 0,0-0,0}
+                                          X.4U0{c2fc56 I.E...... ......I. 0,0-320,439}
+                                        com.ss.android.ugc.aweme.feed.VideoViewCellRootView{c6bd4d7 V.E...... ........ 0,439-320,878 #7f0b4f10 app:id/view_rootview}
+                                          android.view.ViewStub{a0d51c4 G.E...... ......I. 0,0-0,0 #7f0b4188 app:id/lsu}
+                                          com.ss.android.ugc.aweme.feed.ui.LongPressLayout{82db8ad VFED..C.. ........ 0,0-320,439 #7f0b26aa app:id/long_press_layout}
+                                          X.PSa{c8a87e2 G.E...... ......I. 0,0-0,0 #7f0b0517 app:id/ai3}
+                                          android.view.ViewStub{72ee773 G.E...... ......I. 0,0-0,0 #7f0b3338 app:id/j4w}
+                                          X.AxV{f6fc630 GFED..... ......I. 0,0-0,0 #7f0b2fc1 app:id/igz}
+                                          android.widget.LinearLayout{a1a32a9 V.E...... ........ 0,0-320,439}
+                                            android.view.View{4d402e V.ED..... ........ 0,0-320,0 #7f0b097b app:id/bbh}
+                                            android.widget.FrameLayout{c0687cf V.E...... ........ 0,0-320,439 #7f0b4e98 app:id/o95}
+                                              android.widget.FrameLayout{543155c V.E...... ........ 0,0-320,439 #7f0b2fc0 app:id/player_view}
+                                                X.KTn{f3a5065 V.ED..... ........ 0,-64-320,504}
+                                              SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_SET_CONTROLLER, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                              android.widget.FrameLayout{371313a V.E...... ........ 0,-64-320,504 #7f0b4dc4 app:id/o3e}
+                                                androidx.appcompat.widget.AppCompatImageView{10dd1eb V.ED..... ........ 0,0-320,568 #7f0b4dc5 app:id/o3f}
+                                                android.view.View{f9a2b48 V.ED..... ........ 0,0-320,568 #7f0b4dc6 app:id/o3g}
+                                                android.widget.FrameLayout{f848de1 V.E...... ........ 0,0-320,568 #7f0b3e94 app:id/l9e}
+                                          android.view.View{bb12706 V.ED..... ........ 0,0-320,66 #7f0b1954 app:id/gradual_top}
+                                          X.4aA{8f5a1c7 G.ED..... ......I. 0,0-0,0 #7f0b1955 app:id/e_z}
+                                          android.view.ViewStub{ecab3f4 G.E...... ......I. 0,0-0,0 #7f0b0518 app:id/ai4}
+                                          X.AnC{1db271d V.E...... ........ 0,0-320,439 #7f0b292f app:id/h9j}
+                                          android.widget.FrameLayout{da8ad92 V.E...... ........ 0,66-320,66 #7f0b2f72 app:id/iev}
+                                          android.widget.LinearLayout{6a09363 V.E...... ........ 0,0-320,439}
+                                            android.view.View{d91b60 V.ED..... ......ID 0,0-320,0 #7f0b3f3b app:id/lcx}
+                                            X.4OD{f081819 V.E...... ........ 0,0-320,568 #7f0b1df1 app:id/f5v}
+                                          android.view.ViewStub{a2010de G.E...... ......I. 0,0-0,0 #7f0b0157 app:id/t7}
+                                          android.view.ViewStub{e7f02bf G.E...... ......I. 0,0-0,0 #7f0b26a9 app:id/gs5}
+                                          X.5vD{da48d8c V.E...... ........ 0,0-320,439 #7f0b14cf app:id/dfu}
+                                          android.view.ViewStub{8791cd5 G.E...... ......I. 0,0-0,0 #7f0b152b app:id/di8}
+                                          X.BTM{4185cea G.E...... ......I. 0,0-0,0 #7f0b1952 app:id/e_x}
+                                            android.widget.RelativeLayout{1ab0bdb V.E...... ......I. 0,0-0,0}
+                                              X.4aA{9d2f678 V.ED..... ......I. 0,0-0,0 #7f0b1585 app:id/dkn}
+                                              X.4aA{ebbb151 V.ED..... ......I. 0,0-0,0 #7f0b3941 app:id/k9n}
+                                              android.view.View{b975db6 G.ED..... ......I. 0,0-0,0 #7f0b2c7b app:id/hvc}
+                                          android.widget.FrameLayout{ec48ab7 V.E...... ........ 0,0-320,439 #7f0b0943 app:id/b_z}
+                                          android.view.ViewStub{c7d0224 G.E...... ......I. 0,0-0,0 #7f0b018a app:id/ui}
+                                          android.view.View{3b9118d V.ED..... ........ 0,363-320,439 #7f0b1950 app:id/gradual_bottom}
+                                          android.widget.RelativeLayout{9339f42 V.E...... ........ 0,0-320,442 #7f0b5029 app:id/oix}
+                                            android.widget.RelativeLayout{48d1b53 V.E...... ........ 0,0-320,403 #7f0b4494 app:id/mct}
+                                              X.Av9{39a1c90 VFE...C.. ........ 240,323-320,403 #7f0b4e9a app:id/o97}
+                                              android.widget.FrameLayout{4b23989 V.E...... ........ 0,342-0,342 #7f0b4ddf app:id/o45}
+                                              android.widget.RelativeLayout{6606d8e V.E...... ........ 0,0-320,342 #7f0b0613 app:id/aow}
+                                                android.widget.FrameLayout{24419af V.E...... ......ID 0,376-320,376 #7f0b2f10 app:id/ic8}
+                                                android.widget.FrameLayout{32c71bc G.E...... ......I. 0,0-0,0 #7f0b3ccc app:id/kx6}
+                                                X.Av9{7fbe545 GFE...C.. ......I. 0,0-0,0 #7f0b3ccd app:id/kx7}
+                                                android.widget.FrameLayout{e79d49a V.E...... ......ID 307,0-307,0 #7f0b014b app:id/sw}
+                                                android.widget.Space{1c2a1cb I.ED..... ......I. 0,342-0,342 #7f0b2f71 app:id/ieu}
+                                                android.widget.FrameLayout{b2ceda8 V.E...... ......ID 44,51-276,51 #7f0b4491 app:id/mcq}
+                                              android.widget.FrameLayout{a7a90c1 V.E...... ........ 0,342-320,403 #7f0b04dd app:id/agi}
+                                                android.widget.LinearLayout{490a066 V.E...... ........ 10,0-235,61 #7f0b04dc app:id/agh}
+                                                  android.widget.LinearLayout{15fc90f V.E...... ........ 0,0-225,61 #7f0b1deb app:id/f5p}
+                                                    android.view.ViewStub{7578fa7 G.E...... ......I. 0,0-0,0 #7f0b1dec app:id/f5q}
+                                                    android.view.ViewStub{373c54 G.E...... ......I. 0,0-0,0 #7f0b1ded app:id/f5r}
+                                                    X.Av9{8de77fd GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.AvA{66b73f6 GFE...C.. ......I. 0,0-0,0 #7f0b0c66 app:id/bvo}
+                                                      X.Av9{9f65cf2 VFE...C.. ......I. 0,0-0,0 #7f0b0c6e app:id/bvw}
+                                                      X.Av9{3637f43 VFE...C.. ......I. 0,0-0,0 #7f0b0c6e app:id/bvw}
+                                                    X.Av9{2f5c9c0 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{9f96f9 GFE...C.. ......I. 0,0-0,0 #7f0b4d89 app:id/o1t}
+                                                        4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                                        com.bytedance.tux.input.TuxTextView{189563e V.ED..... ......ID 0,0-0,0 #7f0b4d8b app:id/o1v}
+                                                    X.Av9{1b4cc9f GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{24dc1ec GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{4b9a9b5 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{bc0984a GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{2a393bb GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{44b10d8 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{2282c31 VFE...C.. ........ 0,0-225,19 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{777ef16 VFE...C.. ........ 0,0-95,19 #7f0b3759 app:id/jwg}
+                                                        X.0dc{9edb097 VFED..C.. ........ 0,0-95,19 #7f0b432c app:id/title}
+                                                        android.widget.LinearLayout{1cc6284 G.E...... ......I. 0,0-0,0 #7f0b3cf8 app:id/kyc}
+                                                          com.bytedance.tux.icon.TuxIconView{225a6d V.ED..... ......ID 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{37be6a2 V.ED..... ......ID 0,0-0,0 #7f0b3cf7 app:id/kyb}
+                                                          X.4u6{f52bf33 G.E...... ......I. 0,0-0,0 #7f0b3cf6 app:id/kya}
+                                                            android.widget.LinearLayout{ef22f0 V.E...... ......I. 0,0-0,0 #7f0b29fe app:id/he5}
+                                                              com.bytedance.tux.input.TuxTextView{8173069 G.ED..... ......ID 0,0-0,0 #7f0b482f app:id/n1r}
+                                                              android.widget.LinearLayout{cd5caee V.E...... ......I. 0,0-0,0}
+                                                                X.4XI{cf01b8f G.E...... ......I. 0,0-0,0 #7f0b3562 app:id/jiv}
+                                                                com.bytedance.tux.input.TuxTextView{a3b7e1c V.ED..... ......ID 0,0-0,0 #7f0b4829 app:id/n1l}
+                                                                X.4XI{1696a25 G.E...... ......I. 0,0-0,0 #7f0b3561 app:id/jiu}
+                                                              X.4XI{5d7a7fa G.E...... ......I. 0,0-0,0 #7f0b3563 app:id/jiw}
+                                                        X.Av9{75ce1ab VFE...C.. ......ID 95,9-95,9 #7f0b419c app:id/ltd}
+                                                        com.bytedance.tux.input.TuxTextView{4906008 G.ED..... ......ID 0,0-0,0 #7f0b49ea app:id/ncq}
+                                                    X.Av9{ceb83a1 VFE...C.. ........ 0,24-225,54 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{1e849c6 V.E...... ........ 0,0-225,30}
+                                                        android.widget.FrameLayout{b85ed87 V.E...... ........ 0,0-225,30 #7f0b0f46 app:id/cei}
+                                                          android.widget.LinearLayout{3cf74b4 VFE...C.. ........ 0,0-225,30 #7f0b0f73 app:id/cfq}
+                                                            X.4Fb{c1bb8dd V.E...... ........ 0,0-225,30 #7f0b0f5e app:id/cf6}
+                                                              com.bytedance.tux.input.TuxTextLayoutView{20f3c52 VFED..C.. ........ 0,0-225,30 #7f0b0f37 app:id/desc}
+                                                            android.view.View{e49db23 GFED..C.. ......I. 0,0-0,0 #7f0b43b0 app:id/m7n}
+                                                          com.bytedance.tux.input.TuxTextView{6492820 VFED..C.. ........ 170,14-225,30 #7f0b4b58 app:id/nmm}
+                                                          android.widget.LinearLayout{2005d9 V.E...... ......ID 0,0-225,0 #7f0b08f0 app:id/b8q}
+                                                            android.widget.LinearLayout{e40cb9e G.E...... ......I. 0,0-0,0 #7f0b08f2 app:id/b8s}
+                                                              com.bytedance.tux.input.TuxTextView{9d5067f V.ED..... ......ID 0,0-0,0 #7f0b08f3 app:id/b8t}
+                                                              com.bytedance.tux.icon.TuxIconView{ce8a64c V.ED..... ......ID 0,0-0,0 #7f0b08f1 app:id/b8r}
+                                                            android.view.View{c822695 V.ED..... ......ID 0,0-225,0}
+                                                            com.bytedance.tux.input.TuxTextView{76a03aa G.ED..... ......ID 0,0-0,0 #7f0b2a97 app:id/hi_}
+                                                        android.widget.LinearLayout{4bd8b9b V.E...... ......ID 0,30-225,30}
+                                                          com.bytedance.tux.input.TuxTextView{a1fdb38 G.ED..... ......ID 0,0-0,0 #7f0b2dbc app:id/i41}
+                                                          X.PHR{9ab9711 G.E...... ......I. 0,0-0,0 #7f0b2dbd app:id/i42}
+                                                          X.PHR{e3cb076 G.E...... ......I. 0,0-0,0 #7f0b1a70 app:id/ehm}
+                                                        com.bytedance.tux.input.TuxTextView{edf4677 G.ED..... ......ID 0,0-0,0 #7f0b32e2 app:id/j2k}
+                                                        com.bytedance.tux.tag.TuxTag{39372e4 G.ED..... ......ID 0,0-0,0 #7f0b44d5 app:id/mek}
+                                                        com.bytedance.tux.input.TuxTextView{321934d G.ED..... ......ID 0,0-0,0 #7f0b0296 app:id/a1r}
+                                                    X.AvB{cfc214e G.E...... ......I. 0,0-0,0 #7f0b0c62 app:id/bvk}
+                                                    X.Av9{abb5e02 VFE...C.. ......ID 0,59-225,59 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{ff7d313 V.E...... ......I. 0,0-0,0}
+                                                        android.widget.FrameLayout{286d950 G.E...... ......I. 0,0-0,0 #7f0b4501 app:id/mfr}
+                                                        android.widget.FrameLayout{d811749 G.E...... ......I. 0,0-0,0 #7f0b110a app:id/cqr}
+                                                        android.widget.FrameLayout{85584e V.E...... ......I. 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{4028d6f GFED..C.. ......ID 0,0-0,0}
+                                                          android.widget.LinearLayout{f083a7c G.E...... ......I. 0,0-0,0}
+                                                            android.widget.ImageView{3adf05 V.ED..... ......ID 0,0-0,0}
+                                                            com.bytedance.tux.input.TuxTextView{be2ab5a V.ED..... ......ID 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{154918b GFED..C.. ......ID 0,0-0,0}
+                                                    X.Av9{1dc8268 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      android.widget.LinearLayout{f0f6681 V.E...... ......I. 0,0-0,0 #7f0b25b5 app:id/glj}
+                                                        android.widget.FrameLayout{3902326 V.E...... ......I. 0,0-0,0}
+                                                          android.widget.LinearLayout{478bb67 G.E...... ......I. 0,0-0,0 #7f0b2948 app:id/h_8}
+                                                            com.bytedance.tux.icon.TuxIconView{92b5d14 V.ED..... ......ID 0,0-0,0 #7f0b2947 app:id/h_7}
+                                                            com.bytedance.tux.input.TuxTextView{f4ae9bd V.ED..... ......ID 0,0-0,0 #7f0b2949 app:id/h_9}
+                                                          androidx.appcompat.widget.AppCompatImageView{b4b4bb2 G.ED..... ......I. 0,0-0,0 #7f0b294f app:id/h_e}
+                                                        android.widget.FrameLayout{dcba703 V.E...... ......I. 0,0-0,0}
+                                                          com.bytedance.tux.icon.TuxIconView{beb3680 VFED..C.. ......ID 0,0-0,0 #7f0b29aa app:id/hbv}
+                                                        android.widget.FrameLayout{4c164b9 V.E...... ......I. 0,0-0,0}
+                                                          X.4kn{31e70fe VFED..C.. ......I. 0,0-0,0 #7f0b29dd app:id/hd9}
+                                                        android.widget.FrameLayout{cd7b05f V.E...... ......I. 0,0-0,0}
+                                                          com.bytedance.tux.input.TuxTextView{80d3aac GFED..C.. ......ID 0,0-0,0 #7f0b29e1 app:id/hdc}
+                                                    X.Av9{28a9375 VFE...C.. ......ID 0,61-225,61 #7f0b0c64 app:id/bvm}
+                                                      android.view.ViewStub{f6c9f0a G.E...... ......I. 0,0-0,0 #7f0b14d6 app:id/dfz}
+                                                    X.Av9{570f37b GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      androidx.constraintlayout.widget.ConstraintLayout{7695598 V.E...... ......I. 0,0-0,0 #7f0b151d app:id/dhv}
+                                                        com.bytedance.tux.icon.TuxIconView{b7df1f1 V.ED..... ......ID 0,0-0,0 #7f0b1b5a app:id/eny}
+                                                        com.bytedance.tux.icon.TuxIconView{5bda1d6 G.ED..... ......ID 0,0-0,0 #7f0b03e5 app:id/a_t}
+                                                        com.bytedance.tux.input.TuxTextView{a914c57 V.ED..... ......ID 0,0-0,0 #7f0b4a71 app:id/ngd}
+                                                    X.AvA{166b5c5 VFE...C.. ......ID 0,61-225,61 #7f0b0c65 app:id/bvn}
+                                                    X.Av9{76a3344 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                      X.Ob8{e6ebc2d GFE...C.. ......I. 0,0-0,0 #7f0b2a27 app:id/hf9}
+                                                    X.Av9{a4a0562 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                    X.Av9{af456f3 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                android.widget.FrameLayout{b5de9f0 V.E...... ........ 10,0-235,0 #7f0b0612 app:id/aov}
+                                                  android.widget.FrameLayout{f793fb0 G.E...... ......I. 0,0-0,0 #7f0b3287 app:id/j04}
+                                                  android.widget.FrameLayout{a27ee29 G.E...... ......I. 0,0-0,0 #7f0b0e6f app:id/c9q}
+                                                  android.widget.FrameLayout{a4715ae G.E...... ......I. 0,0-0,0 #7f0b4e92 app:id/o8z}
+                                                    android.widget.LinearLayout{b736f4f G.E...... ......I. 0,0-0,0}
+                                                      android.widget.LinearLayout{22aa6dc V.E...... ......I. 0,0-0,0 #7f0b4372 app:id/m60}
+                                                        com.bytedance.tux.input.TuxTextView{52843e5 V.ED..... ......ID 0,0-0,0 #7f0b4335 app:id/m4c}
+                                                        com.bytedance.tux.icon.TuxIconView{ef2deba VFED..C.. ......ID 0,0-0,0 #7f0b0acf app:id/bko}
+                                                      X.DT7{b21b16b V.E...... ......I. 0,0-0,0 #7f0b4cd5 app:id/nwy}
+                                                        android.widget.FrameLayout{52954c8 V.E...... ......ID 0,0-0,0 #7f0b3559 app:id/jim}
+                                                          X.DLz{51e3961 GFED..... ......I. 0,0-0,0 #7f0b30f1 app:id/ip7}
+                                                          X.Bxb{5602c86 G.E...... ......I. 0,0-0,0 #7f0b3535 app:id/jhn}
+                                                            X.4MR{d27f947 V.E...... ......I. 0,0-0,0}
+                                                              X.4G5{be2f574 V.ED..... ......I. 0,0-0,0}
+                                                            X.DLz{2240a9d GFED..... ......I. 0,0-0,0 #7f0b30f2 app:id/ip8}
+                                                          X.4Ui{7028b12 G.E...... ......I. 0,0-0,0 #7f0b3c4f app:id/kts}
+                                                            android.widget.LinearLayout{460e2e3 V.E...... ......I. 0,0-0,0}
+                                                          X.TOp{f3f4e0 G.E...... ......I. 0,0-0,0 #7f0b3e6b app:id/l8a}
+                                                  android.widget.FrameLayout{1bbb399 G.E...... ......I. 0,0-0,0 #7f0b3031 app:id/ik0}
+                                                  android.widget.LinearLayout{efa465e V.E...... ......ID 0,0-225,0 #7f0b0c11 app:id/btd}
+                                                    android.widget.FrameLayout{cb4ca3f G.E...... ......I. 0,0-0,0 #7f0b0122 app:id/ru}
+                                              android.widget.FrameLayout{a537f0c G.E...... ......I. 0,0-0,0 #7f0b0140 app:id/ad_feed_card_container_v2}
+                                              X.Av9{58af055 VFE...C.. ........ 154,0-166,25 #7f0b21ec app:id/fwd}
+                                                android.widget.LinearLayout{8206a6a V.E...... ........ 0,0-12,25 #7f0b3cc8 app:id/kx2}
+                                                  android.widget.FrameLayout{e35cb5b V.E...... ......ID 3,0-3,25 #7f0b3cc7 app:id/kx1}
+                                                  android.widget.FrameLayout{43f7ff8 V.E...... ......ID 9,0-9,25 #7f0b3cc3 app:id/kwx}
+                                              X.AvA{c9693a5 VFE...C.. ........ 0,117-320,403 #7f0b1def app:id/f5t}
+                                                android.view.ViewStub{9d73cd1 G.E...... ......I. 0,0-0,0 #7f0b1df0 app:id/f5u}
+                                                X.Av9{fd2c336 VFE...C.. ........ 275,0-320,56 #7f0b0c64 app:id/bvm}
+                                                  android.widget.RelativeLayout{5fbc237 V.E...... ........ 0,0-45,56}
+                                                    android.widget.RelativeLayout{ee8a3a4 V.E...... ........ 0,3-45,48 #7f0b0499 app:id/aeo}
+                                                      X.SHM{fc1d50d V.ED..... ........ 3,3-42,42 #7f0b1646 app:id/dpv}
+                                                        4kp{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                                        X.Vrb{97fdcc2 G.ED..... ......I. 0,0-0,0}
+                                                      android.view.View{c04ad3 V.ED..... ........ 2,2-42,42 #7f0b4ce5 app:id/nxd}
+                                                      androidx.appcompat.widget.AppCompatImageView{ade5610 G.ED..... ......I. 0,0-0,0 #7f0b1fe5 app:id/fic}
+                                                      X.4Eg{f43b509 G.ED..... ......I. 0,0-0,0 #7f0b4ce0 app:id/nx9}
+                                                      SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DRAWABLE_HIDE, ON_DETACH_CONTROLLER, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                                      X.Pgg{ef3030e I.E...... ......ID 5,5-40,40 #7f0b4ce6 app:id/nxe}
+                                                        4kp{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                                        com.bytedance.tux.input.TuxTextView{33ac12f G.ED..... ......ID 0,0-0,0}
+                                                    4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_CLEAR_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                                    android.widget.RelativeLayout{3ac33c VFE...C.. ........ 0,34-45,56 #7f0b16ff app:id/duv}
+                                                      X.TQt{ce998c5 G.ED..... ......I. 14,0-31,17 #7f0b16e8 app:id/du9}
+                                                      com.bytedance.tux.icon.TuxIconView{960421a V.ED..... ........ 11,0-34,20 #7f0b170a app:id/dv6}
+                                                      com.bytedance.tux.icon.TuxIconView{c3c414b G.ED..... ......ID 0,0-0,0 #7f0b1061 app:id/cm6}
+                                                      com.bytedance.tux.icon.TuxIconView{c8ed728 G.ED..... ......ID 0,0-0,0 #7f0b1037 app:id/cl1}
+                                                X.Av9{f4ffc41 VFE...C.. ........ 276,56-320,98 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{f3065e6 VFE...C.. ........ 0,0-44,42 #7f0b0fd5 app:id/cid}
+                                                    android.widget.FrameLayout{c8ba727 V.E...C.. ........ 0,0-44,38 #7f0b0fd1 app:id/ci_}
+                                                      X.B07{38e3dd4 V.ED..... ........ 3,0-41,38 #7f0b0fcf app:id/ci8}
+                                                    android.widget.RelativeLayout{5f1b7d V.E...... ........ 7,38-36,42}
+                                                      com.bytedance.tux.input.TuxTextView{28cfa72 V.ED..C.. ........ 2,-8-26,4 #7f0b0fd2 app:id/cia}
+                                                    com.bytedance.tux.input.TuxTextView{818ec3 G.ED..... ......ID 0,0-0,0 #7f0b0fd4 app:id/cic}
+                                                X.Av9{e7b6340 VFE...CL. ........ 276,98-320,140 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{646f279 VFE...CL. ........ 0,0-44,42 #7f0b0bea app:id/bsb}
+                                                    android.widget.FrameLayout{cac4bbe V.E...CL. ........ 0,0-44,38 #7f0b0b86 app:id/bpm}
+                                                      android.widget.FrameLayout{764541f V.E...... ........ 3,0-41,38 #7f0b0ba0 app:id/bqb}
+                                                        androidx.appcompat.widget.AppCompatImageView{653736c V.ED..... ........ 5,5-32,32 #7f0b0b9a app:id/bq6}
+                                                        androidx.appcompat.widget.AppCompatImageView{3b3d35 G.ED..... ......ID 0,0-0,0 #7f0b0b95 app:id/bq1}
+                                                      com.bytedance.tux.input.TuxTextView{1dd65ca GFED..CL. ......ID 0,0-0,0 #7f0b0b8f app:id/bpv}
+                                                    android.widget.RelativeLayout{484133b V.E...... ........ 6,38-38,42}
+                                                      com.bytedance.tux.input.TuxTextView{4ba5a58 V.ED..CL. ........ 2,-8-29,4 #7f0b0b89 app:id/bpp}
+                                                X.Av9{2ef77b1 VFE...C.. ........ 276,140-320,182 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{a541496 V.E...C.. ........ 0,0-44,42 #7f0b14a7 app:id/der}
+                                                    android.widget.FrameLayout{616a817 V.E...... ........ 0,0-44,38 #7f0b1494 app:id/de9}
+                                                      X.B08{7a6c404 V.ED..... ........ 3,0-41,38 #7f0b1491 app:id/de6}
+                                                    android.widget.RelativeLayout{d2dded V.E...... ........ 3,38-40,42}
+                                                      com.bytedance.tux.input.TuxTextView{bb4e422 V.ED..... ........ 2,-8-34,4 #7f0b1496 app:id/dea}
+                                                X.Av9{dd3aeb3 VFE...C.. ........ 276,182-320,235 #7f0b0c64 app:id/bvm}
+                                                  android.widget.LinearLayout{3ce1c70 VFE...C.. ........ 0,0-44,53 #7f0b0fd5 app:id/cid}
+                                                    androidx.constraintlayout.widget.ConstraintLayout{4124d8d VFE...C.. ........ 0,0-44,43 #7f0b3ae2 app:id/kjx}
+                                                      4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_CLEAR_CONTROLLER, ON_HOLDER_ATTACH, ON_CLEAR_CONTROLLER]}}
+                                                      com.bytedance.tux.icon.TuxIconView{a0c6be9 G.ED..... ......ID 0,0-0,0 #7f0b1067 app:id/cmb}
+                                                    android.widget.RelativeLayout{f61206e V.E...... ........ 6,43-38,53}
+                                                      com.bytedance.tux.input.TuxTextView{750830f VFED..C.. ........ 2,-8-29,4 #7f0b3ae5 app:id/kk0}
+                                                X.Av9{1d08f9c GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                                X.Av9{36dda5 VFE...C.. ........ 0,194-320,274 #7f0b0c64 app:id/bvm}
+                                                  android.widget.RelativeLayout{182d57a V.E...... ........ 0,0-320,80}
+                                                    android.view.View{81c412b V.ED..... ........ 320,46-320,80 #7f0b29b9 app:id/hc_}
+                                                    X.C5r{2250988 V.E...... ........ 240,0-306,66 #7f0b2b7b app:id/hof}
+                                                    android.widget.FrameLayout{f5e9dbc V.E...C.. ........ 272,39-320,80 #7f0b29b3 app:id/hc4}
+                                                      android.widget.FrameLayout{9dcaf21 G.E...... ......I. 0,0-0,0 #7f0b29ec app:id/hdn}
+                                                        android.widget.FrameLayout{4d8cf46 V.E...... ......I. 0,0-0,0 #7f0b29eb app:id/hdm}
+                                                          com.bytedance.tux.icon.TuxIconView{59bc507 V.ED..... ......ID 0,0-0,0 #7f0b29ed app:id/hdo}
+                                                          com.bytedance.tux.input.TuxTextView{3c53634 V.ED..... ......ID 0,0-0,0 #7f0b29ee app:id/hdp}
+                                                        com.bytedance.tux.icon.TuxIconView{1b41c5d G.ED..... ......ID 0,0-0,0 #7f0b0d52 app:id/c22}
+                                                      X.Av9{74299d2 V.E...C.. ........ 0,0-48,41 #7f0b2972 app:id/hac}
+                                                        android.widget.FrameLayout{ca5aaa3 V.E...... ........ 7,7-41,41 #7f0b2970 app:id/haa}
+                                                          android.widget.FrameLayout{99981a0 V.E...... ........ 0,0-35,34 #7f0b2973 app:id/had}
+                                                            4YS{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_SET_CONTROLLER, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                                            4YS{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH, ON_SET_CONTROLLER, ON_HOLDER_ATTACH, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                                          com.bytedance.tux.input.TuxTextView{d9b2159 G.ED..... ......ID 0,0-0,0 #7f0b427c app:id/lze}
+                                                X.Av9{30c811e GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                              android.widget.FrameLayout{6de4dff V.E...... ........ 0,403-0,403 #7f0b15bf app:id/dm8}
+                                            android.widget.LinearLayout{ad9e72b V.E...... ........ 0,403-320,403 #7f0b1de4 app:id/f5i}
+                                              X.Av9{aa517cc GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                              X.Av9{423667d VFE...C.. ......ID 0,0-320,0 #7f0b0c66 app:id/bvo}
+                                              X.Av9{9537a15 GFE...C.. ......I. 0,0-0,0 #7f0b0c64 app:id/bvm}
+                                            android.widget.FrameLayout{8fb912a V.E...... ........ 0,402-320,403 #7f0b1dea app:id/f5o}
+                                              android.widget.FrameLayout{9d3cb1b V.E...... ........ 0,0-320,1}
+                                                X.Eff{8f1e4b8 V.ED..... ........ 0,0-320,1 #7f0b043d app:id/ac7}
+                                                X.4ue{fea291 V.E...... ........ 0,0-320,1 #7f0b23cd app:id/g9d}
+                                                  android.widget.FrameLayout{f1995f6 V.E...... ......ID 0,0-320,0}
+                                                    android.view.View{bd9fdf7 V.ED..... ......ID 0,0-320,0 #7f0b23c4 app:id/g95}
+                                                    android.view.View{b3c9464 V.ED..... ......ID 0,0-320,0 #7f0b23d3 app:id/g9j}
+                                                X.4L2{759d6cd V.ED..... ........ 0,0-320,1 #7f0b4e3b app:id/o6m}
+                                            X.BJ0{411b82 G.E...... ......I. 0,0-0,0 #7f0b0ebe app:id/cav}
+                                            X.Aey{aa68293 G.ED..... ......I. 0,0-0,0 #7f0b4a53 app:id/nfk}
+                                            com.bytedance.tux.input.TuxTextView{56092d0 G.ED..... ......I. 0,0-0,0 #7f0b4bf0 app:id/nqq}
+                                            android.widget.RelativeLayout{3ba12c9 V.E...... ........ 0,0-320,403 #7f0b0713 app:id/avu}
+                                              android.widget.FrameLayout{8696dce G.E...... ......I. 0,0-0,0 #7f0b229a app:id/g13}
+                                              android.widget.FrameLayout{facb4ef V.E...... ........ 13,185-259,403 #7f0b3f69 app:id/le6}
+                                              android.widget.FrameLayout{b840bfc G.E...... ......I. 0,0-0,0 #7f0b013f app:id/ad_feed_card_container}
+                                            android.widget.FrameLayout{3c81285 G.E...... ......I. 0,0-0,0 #7f0b17d3 app:id/e0l}
+                                          android.widget.FrameLayout{9b298da V.E...... ........ 0,0-320,439 #7f0b2f73 app:id/iew}
+                                            android.widget.RelativeLayout{e39b10b V.E...... ........ 0,0-320,439}
+                                              X.4OE{c03ebe8 V.E...... ........ 0,0-320,439 #7f0b36c5 app:id/jsg}
+                                                X.4EJ{cfc5201 G.ED..... ......I. 0,0-0,0}
+                                                X.4EI{63168a6 G.ED..... ......I. 0,0-0,0}
+                                              X.4aV{75052e7 G.E...... ......I. 0,0-0,0 #7f0b4427 app:id/m_v}
+                                                com.bytedance.tux.input.TuxTextView{c1fde94 V.ED..... ......ID 0,0-0,0}
+                                                com.bytedance.tux.icon.TuxIconView{9db0d3d V.ED..... ......ID 0,0-0,0}
+                                                com.bytedance.tux.icon.TuxIconView{a7b6932 V.ED..... ......ID 0,0-0,0}
+                                          android.widget.FrameLayout{f453683 V.E...... ........ 0,0-320,439 #7f0b1672 app:id/dr2}
+                                          android.widget.FrameLayout{3665000 G.E...... ......I. 0,0-0,0 #7f0b1615 app:id/doj}
+                                          android.widget.FrameLayout{ef04039 G.E...... ......I. 0,0-0,0 #7f0b1616 app:id/dok}
+                                          android.widget.FrameLayout{4f2e67e V.E...... ........ 0,0-320,439 #7f0b0150 app:id/t0}
+                                          X.4uA{11ab7df G.E...... ......I. 0,0-0,0 #7f0b2829 app:id/h2g}
+                                            androidx.constraintlayout.widget.ConstraintLayout{1e06c2c V.E...... ......I. 0,0-0,0 #7f0b2828 app:id/h2f}
+                                              Pf6{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              com.bytedance.tux.input.TuxTextView{38ba6f5 V.ED..... ......ID 0,0-0,0 #7f0b284b app:id/h3d}
+                                              androidx.appcompat.widget.AppCompatImageView{5d2ec8a V.ED..... ......I. 0,0-0,0 #7f0b2848 app:id/h3a}
+                                              com.bytedance.tux.input.TuxTextView{b9cf2fb V.ED..... ......ID 0,0-0,0 #7f0b2847 app:id/h3_}
+                                              com.bytedance.tux.input.TuxTextView{cfe1f18 V.ED..... ......ID 0,0-0,0 #7f0b2849 app:id/h3b}
+                                              androidx.appcompat.widget.AppCompatImageView{a3cbd71 V.ED..... ......ID 0,0-0,0}
+                                          android.widget.FrameLayout{3fb4756 G.E...... ......I. 0,0-0,0 #7f0b0c0c app:id/bt9}
+                                          android.view.ViewStub{43dc3d7 G.E...... ......I. 0,0-0,0 #7f0b14d8 app:id/dg1}
+                                          android.view.ViewStub{f4214c4 G.E...... ......I. 0,0-0,0 #7f0b09d4 app:id/bdw}
+                                          android.widget.FrameLayout{50ebfad V.E...... ........ 0,0-320,439 #7f0b0146 app:id/sr}
+                                            android.widget.LinearLayout{27c82e2 GFE...C.. ......I. 0,0-0,0 #7f0b14d3 app:id/dfy}
+                                              4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              com.bytedance.tux.input.TuxTextView{bb0c673 VFED..C.. ......ID 0,0-0,0 #7f0b0171 app:id/tv}
+                                              4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                              android.widget.LinearLayout{6adb930 VFE...C.. ......I. 0,0-0,0 #7f0b01ac app:id/vf}
+                                                com.bytedance.tux.input.TuxTextView{184a9a9 V.ED..... ......I. 0,0-0,0 #7f0b0158 app:id/t8}
+                                                com.bytedance.tux.input.TuxTextView{2e3eb2e V.ED..... ......I. 0,0-0,0 #7f0b01ab app:id/ve}
+                                              android.widget.LinearLayout{4756cf VFE...C.. ......I. 0,0-0,0 #7f0b0168 app:id/tn}
+                                                X.4GM{ded385c V.ED..... ......ID 0,0-0,0 #7f0b0195 app:id/ut}
+                                                android.view.View{8553765 V.ED..... ......I. 0,0-0,0 #7f0b0167 app:id/tm}
+                                                com.bytedance.tux.input.TuxTextView{478c3a V.ED..... ......ID 0,0-0,0 #7f0b0101 app:id/qy}
+                                              X.PR4{a0c90eb VFED..C.. ......ID 0,0-0,0 #7f0b0118 app:id/rk}, text: 
+                                              android.widget.LinearLayout{c437e48 VFE...C.. ......I. 0,0-0,0 #7f0b018f app:id/un}
+                                                com.bytedance.tux.input.TuxTextView{ce6e4e1 V.ED..... ......ID 0,0-0,0}
+                                                com.bytedance.tux.input.TuxTextView{f123206 V.ED..... ......ID 0,0-0,0 #7f0b018e app:id/um}
+                                                com.bytedance.tux.input.TuxTextView{ca150c7 V.ED..... ......I. 0,0-0,0 #7f0b0199 app:id/ux}
+                                              X.4UN{83636f4 VFE...C.. ......I. 0,0-0,0 #7f0b01a9 app:id/vc}
+                                              android.widget.Space{88bee1d I.ED..... ......I. 0,0-0,0}
+                                              com.bytedance.tux.input.TuxTextView{d8f6892 VFED..C.. ......I. 0,0-0,0 #7f0b14d1 app:id/dfw}
+                                              com.bytedance.tux.input.TuxTextView{ad83263 VFED..C.. ......I. 0,0-0,0 #7f0b14d7 app:id/dg0}
+                                            android.view.ViewStub{8f9ce60 G.E...... ......I. 0,0-0,0 #7f0b4f16 app:id/obh}
+                                          androidx.constraintlayout.widget.ConstraintLayout{d7e4f19 V.E...... ........ 0,0-320,44 #7f0b1491 app:id/de6}
+                                            androidx.appcompat.widget.AppCompatImageView{1377bde V.ED..... ........ 276,0-320,44 #7f0b1493 app:id/de8}
+                                          android.view.ViewStub{81191bf G.E...... ......I. 0,0-0,0 #7f0b152c app:id/di9}
+                                          android.view.ViewStub{29d708c G.E...... ......I. 0,0-0,0 #7f0b173e app:id/dwk}
+                                          android.view.ViewStub{d9bc3d5 G.E...... ......I. 0,0-0,0 #7f0b3328 app:id/j4g}
+                                          com.bytedance.tux.input.TuxTextView{cbb77ea G.ED..... ......ID 0,0-0,0 #7f0b4a81 app:id/ngt}
+                                          androidx.appcompat.widget.AppCompatImageView{3578adb G.ED..... ......ID 0,0-0,0 #7f0b2f9a app:id/ify}
+                                          android.view.ViewStub{8f70978 G.E...... ......I. 0,0-0,0 #7f0b005f app:id/mk}
+                                          android.view.ViewStub{e1c851 G.E...... ......I. 0,0-0,0 #7f0b0bf1 app:id/bsi}
+                                          android.view.ViewStub{ad128b6 G.E...... ......I. 0,0-0,0 #7f0b1960 app:id/ea_}
+                                          android.view.ViewStub{839f9b7 G.E...... ......I. 0,0-0,0 #7f0b352f app:id/jhh}
+                                          android.view.ViewStub{54f4524 G.E...... ......I. 0,0-0,0 #7f0b14e6 app:id/dge}
+                                          android.view.ViewStub{7a9988d G.E...... ......I. 0,0-0,0 #7f0b0971 app:id/bb8}
+                                          android.view.ViewStub{9bf1a42 G.E...... ......I. 0,0-0,0 #7f0b3549 app:id/ji7}
+                                          android.view.View{16a7a53 V.ED..... ........ 0,0-320,20 #7f0b3bff app:id/krm}
+                                          com.ss.android.ugc.aweme.feed.assem.quickcomment.emojianim.EmojiAnimPlayground{acd8f90 G.ED..... ......I. 0,0-0,0}
+                                          X.4U0{4a43089 I.E...... ......I. 0,0-320,439}
+                                      android.view.View{3a8988e V.ED..... ........ 0,439-320,439 #7f0b0700 app:id/avb}
+                                    X.CGQ{91868af G.ED..... ......ID 0,0-0,0 #7f0b3112 app:id/iq3}
+                                    android.view.ViewStub{5a414bc G.E...... ......I. 0,0-0,0 #7f0b2aed app:id/hkl}
+                                    android.view.ViewStub{a964c45 G.E...... ......I. 0,0-0,0 #7f0b10ba app:id/cok}
+                                    android.widget.LinearLayout{f99af9a V.E...... ........ 0,0-320,0 #7f0b441a app:id/m_i}
+                                      android.view.View{30ce0cb V.ED..... ......ID 0,0-320,0 #7f0b4419 app:id/m_h}
+                                      android.widget.FrameLayout{fbc0a8 V.E...... ......ID 0,0-320,0}
+                                        androidx.appcompat.widget.AppCompatImageView{9d467c1 V.ED..... ......ID 0,0-7,0}
+                                        androidx.appcompat.widget.AppCompatImageView{7532b66 V.ED..... ......ID 313,0-320,0}
+                                    android.widget.LinearLayout{c86bea7 V.E...... ........ 0,439-320,439 #7f0b06a8 app:id/asx}
+                                      android.widget.FrameLayout{fa03f54 V.E...... ......ID 0,0-320,0}
+                                        androidx.appcompat.widget.AppCompatImageView{97ebefd V.ED..... ......ID 0,0-7,0}
+                                        androidx.appcompat.widget.AppCompatImageView{dd697f2 V.ED..... ......ID 313,0-320,0}
+                                      android.view.View{dd69e43 V.ED..... ......ID 0,0-320,0 #7f0b06a7 app:id/asw}
+                                    X.4Yy{36bfcc0 V.E...... ........ 0,0-320,439 #7f0b0fd3 app:id/cib}
+                                    X.TOp{87d4df9 G.E...... ......ID 0,95-320,342 #7f0b46ac app:id/mra}
+                                      X.4G5{d6c47fa V.ED..... ......ID 144,108-175,139 #7f0b46ae app:id/mrc}
+                                  X.4dH{2b2413e G.ED..... ......ID 143,42-177,76}
+                                androidx.constraintlayout.widget.ConstraintLayout{9badb9f V.E...... ........ 0,0-320,439 #7f0b0fb4 app:id/chh}
+                                android.widget.FrameLayout{f7424ec V.E...... ........ 0,0-320,439}
+                                  android.view.ViewStub{23bd0b5 G.E...... ......I. 0,0-0,0 #7f0b3f8e app:id/lf6}
+                                android.widget.LinearLayout{e0d334a V.E...... ........ 310,83-310,83 #7f0b262c app:id/gor}
+                                  android.widget.FrameLayout{67b92bb G.E...... ......I. 0,0-0,0 #7f0b2fb1 app:id/igk}
+                                    android.widget.LinearLayout{f4a3d8 V.E...... ......I. 0,0-0,0 #7f0b2faf app:id/igi}
+                                      com.bytedance.tux.input.TuxTextView{325c331 G.ED..... ......ID 0,0-0,0 #7f0b2fb4 app:id/ign}
+                                      com.bytedance.tux.input.TuxTextView{1733a16 G.ED..... ......ID 0,0-0,0 #7f0b2fb3 app:id/igm}
+                                      com.bytedance.tux.icon.TuxIconView{cc69f97 V.ED..... ......ID 0,0-0,0 #7f0b2fb0 app:id/igj}
+                                    android.widget.LinearLayout{afc2584 G.E...... ......I. 0,0-0,0 #7f0b2fb2 app:id/igl}
+                                      com.bytedance.tux.input.TuxTextView{8e2616d V.ED..... ......ID 0,0-0,0 #7f0b3d83 app:id/l21}
+                                      com.bytedance.tux.input.TuxTextView{960e1a2 V.ED..... ......ID 0,0-0,0 #7f0b3d85 app:id/l23}
+                                      com.bytedance.tux.input.TuxTextView{84b9e33 V.ED..... ......ID 0,0-0,0 #7f0b3d84 app:id/l22}
+                                      com.bytedance.tux.input.TuxTextView{d815f0 V.ED..... ......ID 0,0-0,0 #7f0b3d86 app:id/l24}
+                                  android.widget.FrameLayout{a50a769 V.E...... ......I. 0,0-0,0}
+                                    android.widget.FrameLayout{b8f75ee G.E...... ......I. 0,0-0,0 #7f0b046c app:id/adg}
+                                      android.widget.FrameLayout{617ea8f V.E...... ......I. 0,0-0,0 #7f0b0469 app:id/add}
+                                      android.widget.LinearLayout{b40a11c V.E...... ......I. 0,0-0,0 #7f0b046a app:id/ade}
+                                        com.bytedance.tux.input.TuxTextView{3435125 G.ED..... ......ID 0,0-0,0 #7f0b046e app:id/adi}
+                                        com.bytedance.tux.icon.TuxIconView{e0102fa V.ED..... ......ID 0,0-0,0 #7f0b046b app:id/adf}
+                                    android.widget.FrameLayout{cb2a0ab G.E...... ......I. 0,0-0,0 #7f0b046d app:id/adh}
+                                      android.widget.FrameLayout{444b308 V.E...... ......I. 0,0-0,0 #7f0b0469 app:id/add}
+                                      android.widget.LinearLayout{ffcdaa1 V.E...... ......I. 0,0-0,0 #7f0b046a app:id/ade}
+                                        com.bytedance.tux.input.TuxTextView{2cc54c6 G.ED..... ......ID 0,0-0,0 #7f0b046e app:id/adi}
+                                        com.bytedance.tux.icon.TuxIconView{9f89c87 V.ED..... ......ID 0,0-0,0 #7f0b046b app:id/adf}
+                            android.widget.FrameLayout{5f5f7b4 G.E...... ......ID 0,0-0,0 #7f0b44e4 app:id/mez}
+                            androidx.appcompat.widget.AppCompatImageView{46b7fdd V.ED..... ........ 0,0-320,20 #7f0b4373 app:id/title_shadow}
+                            android.view.ViewStub{4a8f752 G.E...... ......I. 0,0-0,0 #7f0b2719 app:id/gv5}
+                            android.widget.LinearLayout{2b87a23 V.E...... ........ 0,0-320,439 #7f0b4345 app:id/m4s}
+                              android.view.View{7d4db20 V.ED..... ........ 0,0-320,20 #7f0b3e50 app:id/l7k}
+                              android.widget.FrameLayout{b253cd9 V.E...... ........ 0,20-320,68}
+                                android.widget.FrameLayout{3b369e VFE...C.. ........ 0,0-320,48 #7f0b371a app:id/jur}
+                                  android.widget.FrameLayout{e957f V.E...... ........ 0,3-320,44}
+                                    X.HES{6fc894c VFED..... ........ 98,0-221,41}
+                                      X.HEU{823cd95 V.ED..... ........ 0,0-123,41}
+                                        X.HEl{6201eaa VFE...C.. ........ 0,0-68,41}
+                                          android.widget.FrameLayout{7f80b9f V.E...... ........ 0,0-68,41}
+                                            android.widget.LinearLayout{6810a9b V.E...... ........ 0,0-68,41}
+                                              com.bytedance.tux.input.TuxTextView{50eee38 V.ED..... ........ 0,-4-68,45 #1020014 android:id/text1}
+                                              android.view.ViewStub{b40ae11 G.E...... ......I. 0,0-0,0 #7f0b1736 app:id/dwc}
+                                              android.view.View{1b97b76 V.ED..... ........ 62,14-68,20 #7f0b4b02 app:id/nka}
+                                              android.view.ViewStub{2dbb577 G.E...... ......I. 0,0-0,0 #7f0b4b05 app:id/nkd}
+                                            android.view.ViewStub{9e0b5e4 G.E...... ......I. 0,0-0,0 #7f0b4b04 app:id/nkc}
+                                        X.HEl{e711a4d VFE...C.. ..S..... 68,0-123,41}
+                                          X.4lB{b9d902 V.E...... ..S..... 0,0-55,41}
+                                            com.bytedance.tux.input.TuxTextView{8cc3213 V.ED..... ..S..... 0,-4-55,45 #1020014 android:id/text1}
+                                            com.bytedance.tux.icon.TuxIconView{3e54c50 G.ED..... ..S...ID 0,0-0,0 #7f0b1ab6 app:id/eji}
+                                            android.view.View{bc20e49 G.ED..... ..S...I. 0,0-0,0 #7f0b4b02 app:id/nka}
+                                  android.widget.ImageView{770834e VFED..C.. ........ 0,0-48,48}
+                                  com.bytedance.tux.icon.TuxIconView{f3ddc6f VFED..C.. ........ 272,0-320,48}
+                                android.view.ViewStub{35add7c G.E...... ......I. 0,0-0,0 #7f0b4207 app:id/lw_}
+                              android.widget.FrameLayout{7144605 V.E...... ........ 0,90-320,90 #7f0b2b4f app:id/hn9}
+                          android.view.ViewStub{dd5865a G.E...... ......I. 0,0-0,0 #7f0b1abd app:id/ejp}
+                          android.widget.LinearLayout{675d08b G.E...... ......I. 0,0-0,0 #7f0b3ca4 app:id/kw3}
+                            android.view.View{c365568 V.ED..... ......I. 0,0-0,0 #7f0b3e56 app:id/l7q}
+                            android.widget.FrameLayout{7983d81 V.E...... ......I. 0,0-0,0 #7f0b194e app:id/e_u}
+                              com.bytedance.tux.input.TuxTextView{155ae26 VFED..C.. ......ID 0,0-0,0 #7f0b19e4 app:id/edu}
+                      android.view.View{3eeea67 V.ED..... ........ 0,403-320,403 #7f0b0704 app:id/avf}
+                      android.view.ViewStub{acf6014 G.E...... ......I. 0,0-0,0 #7f0b0daa app:id/c4f}
+                      X.4OL{d0a30bd V.E...... ........ 0,403-320,439 #7f0b2710 app:id/guw}
+                        X.H6B{75e86b2 VFE...C.. ..S..... 0,0-64,36 #7f0b2708 app:id/guo}
+                          android.widget.ImageView{ff5c603 V.ED..... ..S..... 19,0-45,26}
+                          com.bytedance.tux.input.TuxTextView{74c6980 V.ED..... ..S..... 0,21-64,32}
+                        X.H6B{cae1bb9 VFE...C.. ........ 64,0-128,36 #7f0b2707 app:id/gun}
+                          android.widget.ImageView{caa5bfe V.ED..... ........ 19,0-45,26}
+                          com.bytedance.tux.input.TuxTextView{104bf5f V.ED..... ........ 0,21-64,32}
+                          com.bytedance.tux.input.TuxTextView{3ce9dac G.ED..... ......ID 0,0-0,0}
+                        X.H6B{20bba75 VFE...C.. ........ 128,0-192,36 #7f0b2705 app:id/gul}
+                          android.widget.ImageView{d4c3a0a V.ED..... ........ 0,0-64,36}
+                          4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                          SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                        X.H6B{bf92aeb VFE...C.. ........ 192,0-256,36 #7f0b2709 app:id/gup}
+                          android.widget.ImageView{dff27b V.ED..... ........ 19,0-45,26}
+                          com.bytedance.tux.input.TuxTextView{15de898 V.ED..... ........ 0,21-64,32}
+                          com.bytedance.tux.input.TuxTextView{f6a88f1 V.ED..... ........ 35,2-50,16}
+                          android.widget.ImageView{17becd6 G.ED..... ......ID 0,0-0,0}
+                        X.H6B{7713b57 VFE...C.. ........ 256,0-320,36 #7f0b270a app:id/guq}
+                          android.widget.ImageView{794f644 V.ED..... ........ 19,0-45,26}
+                          com.bytedance.tux.input.TuxTextView{a0dc32d V.ED..... ........ 0,21-64,32}
+                          android.widget.ImageView{b220062 G.ED..... ......ID 0,0-0,0}
+                      android.widget.FrameLayout{76435f3 GFE...C.. ......I. 0,0-0,0 #7f0b1ceb app:id/eys}
+                      X.4aA{b0d32b0 G.ED..... ......I. 0,0-0,0 #7f0b4e57 app:id/o7d}
+                      android.widget.RelativeLayout{e306529 G.E...... ......I. 0,0-0,0 #7f0b4e56 app:id/o7c}
+                        X.4aA{23c0ae G.ED..... ......I. 0,0-0,0 #7f0b08ff app:id/b95}
+                        com.bytedance.tux.input.TuxTextView{8823e4f V.ED..... ......ID 0,0-0,0 #7f0b08e5 app:id/b8f}
+                        android.view.View{e8ac9dc V.ED..... ......I. 0,0-0,0 #7f0b06c7 app:id/atr}
+                        com.bytedance.tux.input.TuxTextView{6c12ae5 G.ED..... ......ID 0,0-0,0 #7f0b0e59 app:id/c95}
+                        com.bytedance.tux.input.TuxTextView{d6f39ba G.ED..... ......ID 0,0-0,0 #7f0b0e58 app:id/c94}
+                        com.bytedance.tux.input.TuxTextView{bce706b G.ED..... ......ID 0,0-0,0 #7f0b44bd app:id/mdx}
+                      X.BQe{ae8a7c8 V.E...... ........ 0,390-320,414 #7f0b4e55 app:id/o7b}
+                        android.widget.FrameLayout{4de9061 V.E...... ........ 0,0-320,24}
+                          X.4KP{ec73786 VFED..... ........ 10,0-310,24 #7f0b3978 app:id/ka5}
+                      android.view.ViewStub{561a847 G.E...... ......I. 0,0-0,0 #7f0b0850 app:id/b4e}
+                      android.view.ViewStub{9c47874 G.E...... ......I. 0,0-0,0 #7f0b4f9e app:id/of6}
+                      android.widget.FrameLayout{312d19d V.E...... ........ 0,95-320,95 #7f0b2b4f app:id/hn9}
+                    android.view.View{74f4612 G.ED..... ......ID 0,0-0,0 #7f0b4fd2 app:id/ogk}
+                    X.4Ma{80681e3 G.ED..... ......I. 0,0-0,0 #7f0b4e59 app:id/o7f}
+                    android.widget.FrameLayout{eeaa7e0 G.E...... ......I. 0,0-0,0 #7f0b16a7 app:id/dsh}
+                    android.widget.LinearLayout{4fea99 V.E...... ........ 0,0-320,439}
+                      android.widget.TabWidget{6d7b15e G.E...... ......I. 0,0-0,0 #1020013 android:id/tabs}
+                        android.widget.Space{e95593f IFED..C.. ..S...I. 0,0-0,0}
+                        android.widget.Space{c82620c IFED..C.. ......I. 0,0-0,0}
+                        android.widget.Space{eab9755 IFED..C.. ......I. 0,0-0,0}
+                        android.widget.Space{7e9856a IFED..C.. ......I. 0,0-0,0}
+                        android.widget.Space{f104a5b IFED..C.. ......I. 0,0-0,0}
+                        android.widget.Space{df992f8 IFED..C.. ......I. 0,0-0,0}
+                      android.widget.FrameLayout{1db53d1 V.E...... ......I. 0,0-0,0 #1020011 android:id/tabcontent}
+                        android.view.View{2928e36 V.ED..... ......I. 0,0-0,0}
+                      android.widget.FrameLayout{37f3137 V.E...... ........ 0,0-320,439 #7f0b415f app:id/lrq}
+                  android.widget.FrameLayout{5b0e6a4 V.E...... ........ 320,0-640,439 #7f0b0ccc app:id/byf}
+                X.4OL{9705c0d G.E...... ......I. 0,0-0,0 #7f0b2704 app:id/guk}
+                android.widget.FrameLayout{ff157c2 V.E...... ........ 0,0-63,118 #7f0b3374 app:id/j6i}
+                  X.2M7{48ba9d3 V.E...... ......ID 0,69-14,69 #7f0b3f85 app:id/lex}
+                android.view.ViewStub{967c910 G.E...... ......I. 0,0-0,0 #7f0b0145 app:id/sq}
+                android.view.ViewStub{2d3ac09 G.E...... ......I. 0,0-0,0 #7f0b013d app:id/sk}
+                android.view.ViewStub{a812e0e G.E...... ......I. 0,0-0,0 #7f0b0143 app:id/so}
+                android.view.ViewStub{1dd102f G.E...... ......I. 0,0-0,0 #7f0b0c71 app:id/bvz}
+                android.view.ViewStub{968663c G.E...... ......I. 0,0-0,0 #7f0b1d28 app:id/f0f}
+            android.widget.FrameLayout{6cf81bb V.E...... ........ 0,0-320,439 #7f0b0bab app:id/bqm}
+              android.widget.FrameLayout{2236651 V.E...... ........ 0,0-320,439 #7f0b0ccc app:id/byf}
+                android.view.View{9341884 V.ED..... ........ 0,0-320,439 #7f0b2772 app:id/gxj}
+                com.ss.android.ugc.aweme.comment.widget.CommentNestedLayout{4bed86d VFE...... .F...... 0,0-320,439 #7f0b3759 app:id/jwg aid=1073741825}
+                  android.widget.LinearLayout{c818ca2 VFE...C.. ........ 0,0-320,439 #7f0b2a7a app:id/hhh}
+                    android.view.View{61c38f0 VFED..C.. ........ 0,0-320,38 #7f0b0bbc app:id/br3}
+                    android.widget.FrameLayout{cfd8e69 V.E...... ........ 0,38-320,439 #7f0b15f0 app:id/dnj}
+                      android.widget.LinearLayout{5e56eb6 V.E...... ........ 0,0-320,401 #7f0b2628 app:id/gon}
+                        X.4Rw{12fc7b7 G.E...... ......I. 0,0-0,0 #7f0b3b54 app:id/kn0}
+                          android.widget.FrameLayout{ebbfb24 V.E...... ......I. 0,0-0,0}
+                            androidx.appcompat.widget.AppCompatImageView{e67168d V.ED..... ......ID 0,0-0,0 #7f0b3b55 app:id/kn1}
+                        android.widget.FrameLayout{78fd0ee V.E...... ........ 0,0-320,0 #7f0b0cdc app:id/byv}
+                          android.widget.LinearLayout{8d1c042 V.E...... ......ID 0,0-320,0}
+                            androidx.constraintlayout.widget.ConstraintLayout{eef2853 GFE...C.. ......I. 0,0-0,0 #7f0b2402 app:id/g_t}
+                              4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                              com.bytedance.tux.input.TuxTextView{d4fa590 V.ED..... ......I. 0,0-0,0 #7f0b2404 app:id/g_v}
+                              com.bytedance.tux.input.TuxTextView{cbb8e89 G.ED..... ......I. 0,0-0,0 #7f0b01a5 app:id/v9}
+                              android.view.View{83f9e8e G.ED..... ......I. 0,0-0,0 #7f0b01a7 app:id/va}
+                              com.bytedance.tux.input.TuxTextView{539f6af V.ED..... ......I. 0,0-0,0 #7f0b23ef app:id/g_a}
+                            androidx.constraintlayout.widget.ConstraintLayout{d318abc GFE...C.. ......I. 0,0-0,0 #7f0b0bf3 app:id/bsk}
+                              4VE{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                              android.widget.ImageView{fc58a45 G.ED..... ......I. 0,0-0,0 #7f0b0c13 app:id/btf}
+                              android.view.View{d9b159a G.ED..... ......I. 0,0-0,0 #7f0b0c05 app:id/bt2}
+                              com.bytedance.tux.input.TuxTextView{ab94ecb V.ED..... ......I. 0,0-0,0 #7f0b0c37 app:id/bue}
+                              android.widget.LinearLayout{2ea96a8 G.E...... ......I. 0,0-0,0 #7f0b2245 app:id/fys}
+                                com.bytedance.tux.input.TuxTextView{5b985c1 G.ED..... ......I. 0,0-0,0 #7f0b0c23 app:id/btv}
+                                android.view.View{b04f166 G.ED..... ......I. 0,0-0,0 #7f0b0bf5 app:id/bsm}
+                                com.bytedance.tux.input.TuxTextView{d8c0ca7 G.ED..... ......ID 0,0-0,0 #7f0b0c28 app:id/bu0}
+                                android.view.View{a67554 G.ED..... ......I. 0,0-0,0 #7f0b0bf6 app:id/bsn}
+                                com.bytedance.tux.input.TuxTextView{197bcfd G.ED..... ......I. 0,0-0,0 #7f0b0da4 app:id/c4_}
+                        android.widget.FrameLayout{ff8a98f V.E...... ........ 0,0-320,0 #7f0b1a44 app:id/egf}
+                        android.widget.FrameLayout{423f41c V.E...... ........ 0,0-320,36}
+                          com.bytedance.tux.input.TuxTextView{92c0dfa VFED..C.. ........ 0,0-320,36 #7f0b3c22 app:id/ksk}
+                          X.TwW{1debdf2 GFED..... ......I. 0,0-0,0 #7f0b4170 app:id/ls7}
+                            X.TwX{4e2cc43 V.ED..... ......I. 0,0-0,0}
+                              X.TwV{d9f92c0 VFE...C.. ..S...I. 0,0-0,0}
+                                androidx.appcompat.widget.AppCompatImageView{c282bf9 G.ED..... ..S...I. 0,0-0,0}
+                                com.bytedance.tux.input.TuxTextView{616c73e V.ED..... ..S...ID 0,0-0,0}
+                          android.widget.RelativeLayout{d604fab V.E...... ........ 10,0-310,34 #7f0b0b7d app:id/bpd}
+                            com.bytedance.tux.icon.TuxIconView{5be99f G.ED..... ......ID 0,0-0,0 #7f0b04fb app:id/ahb}
+                            com.bytedance.tux.input.TuxTextView{84b1aec G.ED..... ......ID 0,0-0,0 #7f0b0577 app:id/ako}
+                            com.bytedance.tux.icon.TuxIconView{38a3608 VFED..C.. ........ 283,8-300,25 #7f0b04fa app:id/aha}
+                            com.bytedance.tux.icon.TuxIconView{8b68eb5 G.ED..... ......ID 0,0-0,0 #7f0b0573 app:id/akk}
+                            com.bytedance.tux.icon.TuxIconView{a34194a G.ED..... ......ID 0,0-0,0 #7f0b3b65 app:id/kng}
+                            android.widget.FrameLayout{7fa1a1 V.E...... ........ 0,0-300,34 #7f0b0baf app:id/bqq}
+                        android.view.View{11f80bb G.ED..... ......I. 0,0-0,0 #7f0b4fcf app:id/ogh}
+                        X.4iP{157a825 VFED..... ........ 0,36-320,401 #7f0b3725 app:id/jv2}
+                          android.widget.FrameLayout{f44f9d8 V.E...... ........ 0,0-320,365 #7f0b15f0 app:id/dnj}
+                            android.view.ViewStub{98e6131 G.E...... ......I. 0,0-0,0 #7f0b0c07 app:id/bt4}
+                            android.widget.LinearLayout{d1d0fc6 V.E...... ........ 0,0-320,365 #7f0b2628 app:id/gon}
+                              android.widget.FrameLayout{790aab4 V.E...... ........ 0,0-320,0 #7f0b1a44 app:id/egf}
+                              android.widget.LinearLayout{228016 G.E...... ......I. 0,0-0,0 #7f0b03ba app:id/a9n}
+                                com.bytedance.tux.icon.TuxIconView{8bb6d97 V.ED..... ......ID 0,0-0,0}
+                                com.bytedance.tux.input.TuxTextView{cfbdb84 V.ED..... ......ID 0,0-0,0}
+                                com.bytedance.tux.icon.TuxIconView{36df6d V.ED..... ......ID 0,0-0,0}
+                              com.bytedance.tux.input.TuxTextView{abe87a2 G.ED..... ......ID 0,0-0,0 #7f0b432c app:id/title}
+                              android.widget.FrameLayout{9bf4c33 G.E...... ......I. 0,0-0,0 #7f0b3dac app:id/l35}
+                              androidx.constraintlayout.widget.ConstraintLayout{21d2bf0 G.E...... ......I. 0,0-0,0 #7f0b1079 app:id/cmt}
+                                4YS{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                4YS{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                com.bytedance.tux.icon.TuxIconView{56f0569 V.ED..... ......ID 0,0-0,0 #7f0b1355 app:id/d6m}
+                                com.bytedance.tux.input.TuxTextView{c217bee V.ED..... ......ID 0,0-0,0 #7f0b0f37 app:id/desc}
+                              android.widget.RelativeLayout{7d3b6dd V.E...... ........ 0,0-320,272 #7f0b15f1 app:id/dnk}
+                                X.BFi{259e3d9 VFED..... ........ 0,0-320,272 #7f0b3502 app:id/jg_}
+                                  android.widget.FrameLayout{1a78dcf VFE...CL. ........ 0,0-320,70 #7f0b22e0 app:id/g2z}
+                                    androidx.constraintlayout.widget.ConstraintLayout{ea6a35c V.E...... ........ 0,0-320,70 #7f0b0cce app:id/byh}
+                                      android.view.View{7e1c665 V.ED..... ........ 310,10-320,10 #7f0b19fc app:id/eeh}
+                                      X.4ax{cb26f3a G.ED..... ......I. 0,0-0,0 #7f0b4fb3 app:id/ofq}
+                                      com.bytedance.tux.input.TuxTextView{6b937eb VFED..C.. ........ 46,10-150,23 #7f0b432c app:id/title}
+                                      X.DVZ{6a89948 G.ED..... ......ID 0,0-0,0 #7f0b3554 app:id/jih}
+                                      com.bytedance.tux.input.TuxTextView{a2d63e1 G.ED..... ......ID 0,0-0,0 #7f0b0bd4 app:id/brq}
+                                      com.bytedance.tux.input.TuxTextView{ac84506 G.ED..... ......ID 0,0-0,0 #7f0b0bdc app:id/bry}
+                                      X.CRf{c098522 V.E...... ........ 7,43-319,63 #7f0b0fd0 app:id/ci9}
+                                        android.widget.RelativeLayout{4f167c7 V.E...... ........ 0,0-313,20}
+                                          android.widget.RelativeLayout{35201f4 V.E...... ........ 225,0-279,20 #7f0b23ab app:id/g8g}
+                                            com.bytedance.tux.icon.TuxIconView{d3b5d1d V.ED..... ........ 9,0-26,20 #7f0b2064 app:id/fls}
+                                            com.bytedance.tux.icon.TuxIconView{a13ab92 V.ED..... ........ 9,0-26,20 #7f0b1fbb app:id/fh8}
+                                            com.bytedance.tux.input.TuxTextView{d92b963 V.ED..... ........ 28,0-54,20 #7f0b4938 app:id/n8x}
+                                          android.widget.RelativeLayout{1874960 V.E...... ........ 279,0-313,20 #7f0b1a2b app:id/efr}
+                                            com.bytedance.tux.icon.TuxIconView{f35ae19 V.ED..... ........ 0,0-34,20 #7f0b2022 app:id/fk0}
+                                            com.bytedance.tux.icon.TuxIconView{53ceede V.ED..... ........ 0,0-34,20 #7f0b2164 app:id/fsp}
+                                      X.DhC{96d88bf G.E...... ......I. 0,0-0,0 #7f0b0b79 app:id/bp_}
+                                        com.bytedance.tux.input.TuxTextView{6079b8c V.ED..... ......ID 0,0-0,0 #7f0b3119 app:id/iq_}
+                                        com.bytedance.tux.input.TuxTextView{cea12d5 V.ED..... ......ID 0,0-0,0 #7f0b3557 app:id/jik}
+                                      com.bytedance.tux.input.TuxTextView{7251aea V.ED..... ........ 156,10-156,25 #7f0b4308 app:id/m36}
+                                      com.bytedance.tux.icon.TuxIconView{3fbf1db G.ED..... ......ID 0,0-0,0 #7f0b1cd6 app:id/ey8}
+                                      android.widget.LinearLayout{58e478 V.E...... ........ 46,43-111,62 #7f0b0be6 app:id/bs8}
+                                        com.bytedance.tux.input.TuxTextView{8460751 V.ED..... ........ 0,3-14,16 #7f0b0be4 app:id/bs6}
+                                        com.bytedance.tux.input.TuxTextView{5b1fbb6 VFED..C.. ........ 27,3-57,16 #7f0b0bc7 app:id/brd}
+                                        com.bytedance.tux.input.TuxTextView{c3dd0b7 G.ED..... ......ID 0,0-0,0 #7f0b0b78 app:id/bp9}
+                                      android.widget.FrameLayout{73d024 GFE...C.. ......I. 0,0-0,0 #7f0b239e app:id/g84}
+                                        SmartAvatarImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                        com.bytedance.tux.icon.TuxIconView{a92c78d V.ED..... ......ID 0,0-0,0 #7f0b239f app:id/g85}
+                                      android.widget.LinearLayout{d5a1d42 G.E...... ......I. 0,0-0,0 #7f0b18d3 app:id/e7i}
+                                        com.bytedance.tux.input.TuxTextView{754c153 V.ED..... ......ID 0,0-0,0 #7f0b18d5 app:id/e7k}
+                                        SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                      X.CS0{b2fca90 G.E...... ......I. 0,0-0,0 #7f0b01d3 app:id/wh}
+                                        androidx.constraintlayout.widget.ConstraintLayout{e714f89 V.E...... ......I. 0,0-0,0 #7f0b0bc6 app:id/brc}
+                                          android.widget.LinearLayout{970cb8e V.E...... ......I. 0,0-0,0 #7f0b01d8 app:id/wm}
+                                            com.bytedance.tux.icon.TuxIconView{e01faf V.ED..... ......ID 0,0-0,0}
+                                            com.bytedance.tux.input.TuxTextView{96effbc V.ED..... ......ID 0,0-0,0}
+                                          android.widget.LinearLayout{d965b45 I.E...... ......I. 0,0-0,0 #7f0b2650 app:id/gpq}
+                                            X.4EM{532129a G.ED..... ......I. 0,0-0,0 #7f0b1bab app:id/eq5}
+                                            com.bytedance.tux.input.TuxTextView{51907cb V.ED..... ......ID 0,0-0,0 #7f0b4274 app:id/lz7}
+                                          android.widget.LinearLayout{e0a5ba8 I.E...... ......I. 0,0-0,0 #7f0b020c app:id/y1}
+                                            com.bytedance.tux.input.TuxTextView{e4666c1 V.ED..... ......ID 0,0-0,0}
+                                            com.bytedance.tux.icon.TuxIconView{18ebe66 V.ED..... ......ID 0,0-0,0}
+                                      com.bytedance.tux.input.TuxTextView{ae55a7 G.ED..... ......ID 0,0-0,0 #7f0b23b3 app:id/g8o}
+                                      com.bytedance.tux.input.TuxTextView{e7d8a54 GFED..C.. ......ID 0,0-0,0 #7f0b30e3 app:id/iot}
+                                      X.4GH{c91adfd GFED..C.. ......I. 0,0-0,0 #7f0b2752 app:id/gwo}
+                                      android.widget.FrameLayout{bb85af2 V.E...... ........ 7,10-46,46 #7f0b15cd app:id/dml}
+                                        X.SHM{260a543 V.ED..... ........ 0,0-36,36 #7f0b1646 app:id/dpv}
+                                          SmartAvatarImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                          X.Vrb{a52f7c0 G.ED..... ......I. 0,0-0,0}
+                                        4YS{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                      X.4Rf{b502cf9 G.E...... ......I. 0,0-0,0 #7f0b4501 app:id/mfr}
+                                        android.widget.LinearLayout{6d343e V.E...... ......I. 0,0-0,0}
+                                          com.bytedance.tux.icon.TuxIconView{a5e529f V.ED..... ......ID 0,0-0,0}
+                                          com.bytedance.tux.input.TuxTextView{d4fcfec V.ED..... ......ID 0,0-0,0}
+                                      android.view.View{8dd9fb5 V.ED..... ........ 7,63-320,63 #7f0b4efb app:id/oas}
+                                      X.CWY{804564a VFED..CL. ........ 46,24-310,43 #7f0b0cf2 app:id/bzg}
+                                      android.view.ViewStub{35f79bb G.E...... ......I. 0,0-0,0 #7f0b0b9c app:id/bq8}
+                                      com.bytedance.tux.input.TuxTextView{85ffed8 G.ED..... ......ID 0,0-0,0 #7f0b4a39 app:id/nev}
+                                  android.widget.FrameLayout{3958231 V.E...... ........ 0,70-320,95 #7f0b3742 app:id/jvu}
+                                    android.widget.LinearLayout{7398d16 V.E...... ........ 46,0-310,25 #7f0b22d2 app:id/g2l}
+                                      android.widget.LinearLayout{181f697 V.E...... ........ 0,0-106,25 #7f0b13fd app:id/da6}
+                                        android.view.View{d423084 V.ED..... ......ID 0,8-20,8 #7f0b4ef1 app:id/oai}
+                                        com.bytedance.tux.input.TuxTextView{a0f106d V.ED..... ........ 26,2-106,15 #7f0b4a40 app:id/nf2}
+                                        com.bytedance.tux.icon.TuxIconView{b964a2 G.ED..... ......ID 0,0-0,0 #7f0b1cd9 app:id/eya}
+                                      android.widget.Space{2e56533 I.ED..... ......I. 106,12-264,12}
+                                      android.widget.LinearLayout{8f3d0f0 G.E...... ......I. 0,0-0,0 #7f0b0b09 app:id/bm9}
+                                        com.bytedance.tux.input.TuxTextView{3194669 V.ED..... ......ID 0,0-0,0 #7f0b0b0b app:id/bma}
+                                        com.bytedance.tux.icon.TuxIconView{36d28ee G.ED..... ......ID 0,0-0,0 #7f0b0b07 app:id/bm7}
+                                    X.4TJ{e07218f G.E...... ......I. 0,0-0,0 #7f0b22d3 app:id/g2m}
+                                      android.widget.FrameLayout{8dd0c1c V.E...... ......I. 0,0-0,0 #7f0b32a7 app:id/j0z}
+                                        X.4GD{976e025 G.ED..... ......I. 0,0-0,0 #7f0b1098 app:id/cnn}
+                                  android.widget.FrameLayout{186e5fa VFE...CL. ........ 0,95-320,182 #7f0b22e0 app:id/g2z}
+                                    androidx.constraintlayout.widget.ConstraintLayout{9de47ab V.E...... ........ 0,0-320,87 #7f0b0cce app:id/byh}
+                                      android.view.View{6bcce08 V.ED..... ........ 310,10-320,10 #7f0b19fc app:id/eeh}
+                                      X.4ax{75a59a1 G.ED..... ......I. 0,0-0,0 #7f0b4fb3 app:id/ofq}
+                                      com.bytedance.tux.input.TuxTextView{c4d67c6 VFED..C.. ........ 46,10-70,24 #7f0b432c app:id/title}
+                                      X.DVZ{bb7b387 G.ED..... ......ID 0,0-0,0 #7f0b3554 app:id/jih}
+                                      com.bytedance.tux.input.TuxTextView{754c2b4 G.ED..... ......ID 0,0-0,0 #7f0b0bd4 app:id/brq}
+                                      com.bytedance.tux.input.TuxTextView{da1eedd G.ED..... ......ID 0,0-0,0 #7f0b0bdc app:id/bry}
+                                      X.CRf{4fe169f V.E...... ........ 7,60-319,80 #7f0b0fd0 app:id/ci9}
+                                        android.widget.RelativeLayout{a83a52 V.E...... ........ 0,0-313,20}
+                                          android.widget.RelativeLayout{6d20123 V.E...... ........ 229,0-279,20 #7f0b23ab app:id/g8g}
+                                            com.bytedance.tux.icon.TuxIconView{7d55620 V.ED..... ........ 9,0-26,20 #7f0b2064 app:id/fls}
+                                            com.bytedance.tux.icon.TuxIconView{2d39bd9 V.ED..... ........ 9,0-26,20 #7f0b1fbb app:id/fh8}
+                                            com.bytedance.tux.input.TuxTextView{6ba99e V.ED..... ........ 28,0-50,20 #7f0b4938 app:id/n8x}
+                                          android.widget.RelativeLayout{9b98c7f V.E...... ........ 279,0-313,20 #7f0b1a2b app:id/efr}
+                                            com.bytedance.tux.icon.TuxIconView{609b44c V.ED..... ........ 0,0-34,20 #7f0b2022 app:id/fk0}
+                                            com.bytedance.tux.icon.TuxIconView{5d91c95 V.ED..... ........ 0,0-34,20 #7f0b2164 app:id/fsp}
+                                      X.DhC{464c1aa G.E...... ......I. 0,0-0,0 #7f0b0b79 app:id/bp_}
+                                        com.bytedance.tux.input.TuxTextView{564719b V.ED..... ......ID 0,0-0,0 #7f0b3119 app:id/iq_}
+                                        com.bytedance.tux.input.TuxTextView{f43c938 V.ED..... ......ID 0,0-0,0 #7f0b3557 app:id/jik}
+                                      com.bytedance.tux.input.TuxTextView{7bed11 V.ED..... ........ 76,10-76,25 #7f0b4308 app:id/m36}
+                                      com.bytedance.tux.icon.TuxIconView{3254e76 G.ED..... ......ID 0,0-0,0 #7f0b1cd6 app:id/ey8}
+                                      android.widget.LinearLayout{a0e8c77 V.E...... ........ 46,60-127,79 #7f0b0be6 app:id/bs8}
+                                        com.bytedance.tux.input.TuxTextView{20840e4 V.ED..... ........ 0,4-30,16 #7f0b0be4 app:id/bs6}
+                                        com.bytedance.tux.input.TuxTextView{5a1494d VFED..C.. ........ 43,3-73,16 #7f0b0bc7 app:id/brd}
+                                        com.bytedance.tux.input.TuxTextView{88fdc02 G.ED..... ......ID 0,0-0,0 #7f0b0b78 app:id/bp9}
+                                      android.widget.FrameLayout{5d57913 GFE...C.. ......I. 0,0-0,0 #7f0b239e app:id/g84}
+                                        SmartAvatarImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                        com.bytedance.tux.icon.TuxIconView{e7a8750 V.ED..... ......ID 0,0-0,0 #7f0b239f app:id/g85}
+                                      android.widget.LinearLayout{7462d49 G.E...... ......I. 0,0-0,0 #7f0b18d3 app:id/e7i}
+                                        com.bytedance.tux.input.TuxTextView{a23b64e V.ED..... ......ID 0,0-0,0 #7f0b18d5 app:id/e7k}
+                                        SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                      X.CS0{114936f G.E...... ......I. 0,0-0,0 #7f0b01d3 app:id/wh}
+                                        androidx.constraintlayout.widget.ConstraintLayout{188c87c V.E...... ......I. 0,0-0,0 #7f0b0bc6 app:id/brc}
+                                          android.widget.LinearLayout{3b5505 V.E...... ......I. 0,0-0,0 #7f0b01d8 app:id/wm}
+                                            com.bytedance.tux.icon.TuxIconView{408e95a V.ED..... ......ID 0,0-0,0}
+                                            com.bytedance.tux.input.TuxTextView{480f78b V.ED..... ......ID 0,0-0,0}
+                                          android.widget.LinearLayout{6d7f068 I.E...... ......I. 0,0-0,0 #7f0b2650 app:id/gpq}
+                                            X.4EM{da13c81 G.ED..... ......I. 0,0-0,0 #7f0b1bab app:id/eq5}
+                                            com.bytedance.tux.input.TuxTextView{adc4126 V.ED..... ......ID 0,0-0,0 #7f0b4274 app:id/lz7}
+                                          android.widget.LinearLayout{5058167 I.E...... ......I. 0,0-0,0 #7f0b020c app:id/y1}
+                                            com.bytedance.tux.input.TuxTextView{d6fab14 V.ED..... ......ID 0,0-0,0}
+                                            com.bytedance.tux.icon.TuxIconView{4241fbd V.ED..... ......ID 0,0-0,0}
+                                      com.bytedance.tux.input.TuxTextView{e3b49b2 G.ED..... ......ID 0,0-0,0 #7f0b23b3 app:id/g8o}
+                                      com.bytedance.tux.input.TuxTextView{15ecd03 GFED..C.. ......ID 0,0-0,0 #7f0b30e3 app:id/iot}
+                                      X.4GH{b266480 GFED..C.. ......I. 0,0-0,0 #7f0b2752 app:id/gwo}
+                                      android.widget.FrameLayout{cf7fab9 V.E...... ........ 7,10-46,46 #7f0b15cd app:id/dml}
+                                        X.SHM{8104efe V.ED..... ........ 0,0-36,36 #7f0b1646 app:id/dpv}
+                                          SmartAvatarImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                          X.Vrb{d77365f G.ED..... ......I. 0,0-0,0}
+                                        4YS{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                      X.4Rf{acd48ac G.E...... ......I. 0,0-0,0 #7f0b4501 app:id/mfr}
+                                        android.widget.LinearLayout{6948975 V.E...... ......I. 0,0-0,0}
+                                          com.bytedance.tux.icon.TuxIconView{49e5d0a V.ED..... ......ID 0,0-0,0}
+                                          com.bytedance.tux.input.TuxTextView{782d97b V.ED..... ......ID 0,0-0,0}
+                                      android.view.View{11c4398 V.ED..... ........ 7,80-320,80 #7f0b4efb app:id/oas}
+                                      X.CWY{53147f1 VFED..CL. ........ 46,25-310,60 #7f0b0cf2 app:id/bzg}
+                                      android.view.ViewStub{f4d3fd6 G.E...... ......I. 0,0-0,0 #7f0b0b9c app:id/bq8}
+                                      com.bytedance.tux.input.TuxTextView{2db9257 G.ED..... ......ID 0,0-0,0 #7f0b4a39 app:id/nev}
+                                  android.widget.FrameLayout{45e0144 VFE...CL. ........ 0,182-320,269 #7f0b22e0 app:id/g2z}
+                                    androidx.constraintlayout.widget.ConstraintLayout{f01722d V.E...... ........ 0,0-320,87 #7f0b0cce app:id/byh}
+                                      android.view.View{358362 V.ED..... ........ 310,10-320,10 #7f0b19fc app:id/eeh}
+                                      X.4ax{49cfcf3 G.ED..... ......I. 0,0-0,0 #7f0b4fb3 app:id/ofq}
+                                      com.bytedance.tux.input.TuxTextView{2dbedb0 VFED..C.. ........ 46,10-89,24 #7f0b432c app:id/title}
+                                      X.DVZ{300429 G.ED..... ......ID 0,0-0,0 #7f0b3554 app:id/jih}
+                                      com.bytedance.tux.input.TuxTextView{66c73ae G.ED..... ......ID 0,0-0,0 #7f0b0bd4 app:id/brq}
+                                      com.bytedance.tux.input.TuxTextView{e00754f G.ED..... ......ID 0,0-0,0 #7f0b0bdc app:id/bry}
+                                      X.CRf{e49efcf V.E...... ........ 7,60-319,80 #7f0b0fd0 app:id/ci9}
+                                        android.widget.RelativeLayout{40a34dc V.E...... ........ 0,0-313,20}
+                                          android.widget.RelativeLayout{29bb9e5 V.E...... ........ 224,0-279,20 #7f0b23ab app:id/g8g}
+                                            com.bytedance.tux.icon.TuxIconView{b101cba V.ED..... ........ 9,0-26,20 #7f0b2064 app:id/fls}
+                                            com.bytedance.tux.icon.TuxIconView{79176b V.ED..... ........ 9,0-26,20 #7f0b1fbb app:id/fh8}
+                                            com.bytedance.tux.input.TuxTextView{73c2c8 V.ED..... ........ 28,0-55,20 #7f0b4938 app:id/n8x}
+                                          android.widget.RelativeLayout{5530f61 V.E...... ........ 279,0-313,20 #7f0b1a2b app:id/efr}
+                                            com.bytedance.tux.icon.TuxIconView{9134a86 V.ED..... ........ 0,0-34,20 #7f0b2022 app:id/fk0}
+                                            com.bytedance.tux.icon.TuxIconView{78fbf47 V.ED..... ........ 0,0-34,20 #7f0b2164 app:id/fsp}
+                                      X.DhC{c664374 G.E...... ......I. 0,0-0,0 #7f0b0b79 app:id/bp_}
+                                        com.bytedance.tux.input.TuxTextView{fd0409d V.ED..... ......ID 0,0-0,0 #7f0b3119 app:id/iq_}
+                                        com.bytedance.tux.input.TuxTextView{5c98912 V.ED..... ......ID 0,0-0,0 #7f0b3557 app:id/jik}
+                                      com.bytedance.tux.input.TuxTextView{47f08e3 V.ED..... ........ 95,10-95,25 #7f0b4308 app:id/m36}
+                                      com.bytedance.tux.icon.TuxIconView{15e22e0 G.ED..... ......ID 0,0-0,0 #7f0b1cd6 app:id/ey8}
+                                      android.widget.LinearLayout{cf54999 V.E...... ........ 46,60-111,79 #7f0b0be6 app:id/bs8}
+                                        com.bytedance.tux.input.TuxTextView{633245e V.ED..... ........ 0,3-14,16 #7f0b0be4 app:id/bs6}
+                                        com.bytedance.tux.input.TuxTextView{78f503f VFED..C.. ........ 27,3-57,16 #7f0b0bc7 app:id/brd}
+                                        com.bytedance.tux.input.TuxTextView{2328d0c G.ED..... ......ID 0,0-0,0 #7f0b0b78 app:id/bp9}
+                                      android.widget.FrameLayout{9c7e655 GFE...C.. ......I. 0,0-0,0 #7f0b239e app:id/g84}
+                                        SmartAvatarImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                        com.bytedance.tux.icon.TuxIconView{d09286a V.ED..... ......ID 0,0-0,0 #7f0b239f app:id/g85}
+                                      android.widget.LinearLayout{332b15b G.E...... ......I. 0,0-0,0 #7f0b18d3 app:id/e7i}
+                                        com.bytedance.tux.input.TuxTextView{6016df8 V.ED..... ......ID 0,0-0,0 #7f0b18d5 app:id/e7k}
+                                        SmartImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER]}}
+                                      X.CS0{3ed92d1 G.E...... ......I. 0,0-0,0 #7f0b01d3 app:id/wh}
+                                        androidx.constraintlayout.widget.ConstraintLayout{d896136 V.E...... ......I. 0,0-0,0 #7f0b0bc6 app:id/brc}
+                                          android.widget.LinearLayout{4e10837 V.E...... ......I. 0,0-0,0 #7f0b01d8 app:id/wm}
+                                            com.bytedance.tux.icon.TuxIconView{5db71a4 V.ED..... ......ID 0,0-0,0}
+                                            com.bytedance.tux.input.TuxTextView{3e78b0d V.ED..... ......ID 0,0-0,0}
+                                          android.widget.LinearLayout{f025ac2 I.E...... ......I. 0,0-0,0 #7f0b2650 app:id/gpq}
+                                            X.4EM{fb3f0d3 G.ED..... ......I. 0,0-0,0 #7f0b1bab app:id/eq5}
+                                            com.bytedance.tux.input.TuxTextView{9300410 V.ED..... ......ID 0,0-0,0 #7f0b4274 app:id/lz7}
+                                          android.widget.LinearLayout{f0ecb09 I.E...... ......I. 0,0-0,0 #7f0b020c app:id/y1}
+                                            com.bytedance.tux.input.TuxTextView{d1f610e V.ED..... ......ID 0,0-0,0}
+                                            com.bytedance.tux.icon.TuxIconView{4c2c72f V.ED..... ......ID 0,0-0,0}
+                                      com.bytedance.tux.input.TuxTextView{cf9513c G.ED..... ......ID 0,0-0,0 #7f0b23b3 app:id/g8o}
+                                      com.bytedance.tux.input.TuxTextView{d500ec5 GFED..C.. ......ID 0,0-0,0 #7f0b30e3 app:id/iot}
+                                      X.4GH{f4801a GFED..C.. ......I. 0,0-0,0 #7f0b2752 app:id/gwo}
+                                      android.widget.FrameLayout{53ea74b V.E...... ........ 7,10-46,46 #7f0b15cd app:id/dml}
+                                        X.SHM{1a84528 V.ED..... ........ 0,0-36,36 #7f0b1646 app:id/dpv}
+                                          SmartAvatarImageView{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_DRAWABLE_SHOW, ON_HOLDER_ATTACH, ON_ATTACH_CONTROLLER, ON_DETACH_CONTROLLER, ON_SET_CONTROLLER, ON_ATTACH_CONTROLLER, ON_HOLDER_ATTACH]}}
+                                          X.Vrb{ea7d241 G.ED..... ......I. 0,0-0,0}
+                                        4YS{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                      X.4Rf{eca83e6 G.E...... ......I. 0,0-0,0 #7f0b4501 app:id/mfr}
+                                        android.widget.LinearLayout{a4e6d27 V.E...... ......I. 0,0-0,0}
+                                          com.bytedance.tux.icon.TuxIconView{bd08bd4 V.ED..... ......ID 0,0-0,0}
+                                          com.bytedance.tux.input.TuxTextView{c5e517d V.ED..... ......ID 0,0-0,0}
+                                      android.view.View{4aaf872 V.ED..... ........ 7,80-320,80 #7f0b4efb app:id/oas}
+                                      X.CWY{eaab4c3 VFED..CL. ........ 46,25-310,60 #7f0b0cf2 app:id/bzg}
+                                      android.view.ViewStub{3949140 G.E...... ......I. 0,0-0,0 #7f0b0b9c app:id/bq8}
+                                      com.bytedance.tux.input.TuxTextView{2038879 G.ED..... ......ID 0,0-0,0 #7f0b4a39 app:id/nev}
+                                  android.widget.FrameLayout{5ac29be V.E...... ........ 0,269-320,294 #7f0b3742 app:id/jvu}
+                                    android.widget.LinearLayout{5f9da1f V.E...... ........ 46,0-310,25 #7f0b22d2 app:id/g2l}
+                                      android.widget.LinearLayout{ed1816c V.E...... ........ 0,0-106,25 #7f0b13fd app:id/da6}
+                                        android.view.View{a2b3335 V.ED..... ......ID 0,8-20,8 #7f0b4ef1 app:id/oai}
+                                        com.bytedance.tux.input.TuxTextView{dfd23ca V.ED..... ........ 26,2-106,15 #7f0b4a40 app:id/nf2}
+                                        com.bytedance.tux.icon.TuxIconView{debf93b G.ED..... ......ID 0,0-0,0 #7f0b1cd9 app:id/eya}
+                                      android.widget.Space{20b4858 I.ED..... ......I. 106,12-264,12}
+                                      android.widget.LinearLayout{ae8cdb1 G.E...... ......I. 0,0-0,0 #7f0b0b09 app:id/bm9}
+                                        com.bytedance.tux.input.TuxTextView{bb1b296 V.ED..... ......ID 0,0-0,0 #7f0b0b0b app:id/bma}
+                                        com.bytedance.tux.icon.TuxIconView{516ee17 G.ED..... ......ID 0,0-0,0 #7f0b0b07 app:id/bm7}
+                                    X.4TJ{4189204 G.E...... ......I. 0,0-0,0 #7f0b22d3 app:id/g2m}
+                                      android.widget.FrameLayout{e0b93ed V.E...... ......I. 0,0-0,0 #7f0b32a7 app:id/j0z}
+                                        X.4GD{84e6222 G.ED..... ......I. 0,0-0,0 #7f0b1098 app:id/cnn}
+                                X.TOp{688519e G.E...... ......ID 0,0-320,272 #7f0b3e6b app:id/l8a}
+                                  X.4G5{4f48d56 V.ED..... ......ID 144,120-175,151 #7f0b46ae app:id/mrc}
+                                android.widget.LinearLayout{618788f G.E...... ......I. 0,0-0,0 #7f0b173d app:id/dwj}
+                                  com.bytedance.tux.icon.TuxIconView{ac1171c V.ED..... ......ID 0,0-0,0}
+                                  com.bytedance.tux.input.TuxTextView{4e98f25 V.ED..... ......ID 0,0-0,0}
+                                X.TOp{cad68fa G.E...... ......I. 0,0-0,0 #7f0b0b84 app:id/bpk}
+                              android.view.View{2ca6252 V.ED..... ........ 0,272-320,273 #7f0b0b8b app:id/bpr}
+                              android.widget.LinearLayout{78d0923 V.E...... ........ 0,273-320,365 #7f0b374c app:id/jw4}
+                                android.widget.FrameLayout{f1d147f V.E...... ........ 0,0-320,41}
+                                  X.CUk{72e0eab V.E...... ........ 0,7-320,41 #7f0b1ac9 app:id/ek1}
+                                    com.ss.android.ugc.aweme.comment.keyboard.ui.ClipLinearLayout{a568908 V.E...... ........ 0,0-320,34 #7f0b12de app:id/d3e}
+                                      androidx.recyclerview.widget.RecyclerView{188f8d3 VFED..... ........ 0,0-320,34 #7f0b141a app:id/day}
+                                        android.widget.FrameLayout{8c8f8a1 VFE...C.. ........ 14,0-48,34 #7f0b12e2 app:id/d3i}
+                                          com.bytedance.tux.input.TuxTextView{6d91ac6 V.ED..... ........ 0,0-34,34 #7f0b12f6 app:id/d42}
+                                        android.widget.FrameLayout{bbcea87 VFE...C.. ........ 57,0-91,34 #7f0b12e2 app:id/d3i}
+                                          com.bytedance.tux.input.TuxTextView{a4f2db4 V.ED..... ........ 0,0-34,34 #7f0b12f6 app:id/d42}
+                                        android.widget.FrameLayout{db7ddd VFE...C.. ........ 100,0-134,34 #7f0b12e2 app:id/d3i}
+                                          com.bytedance.tux.input.TuxTextView{3bc1d52 V.ED..... ........ 0,0-34,34 #7f0b12f6 app:id/d42}
+                                        android.widget.FrameLayout{773a823 VFE...C.. ........ 143,0-177,34 #7f0b12e2 app:id/d3i}
+                                          com.bytedance.tux.input.TuxTextView{78b7120 V.ED..... ........ 0,0-34,34 #7f0b12f6 app:id/d42}
+                                        android.widget.FrameLayout{1971ad9 VFE...C.. ........ 186,0-220,34 #7f0b12e2 app:id/d3i}
+                                          com.bytedance.tux.input.TuxTextView{45abc9e V.ED..... ........ 0,0-34,34 #7f0b12f6 app:id/d42}
+                                        android.widget.FrameLayout{4ea37f VFE...C.. ........ 230,0-264,34 #7f0b12e2 app:id/d3i}
+                                          com.bytedance.tux.input.TuxTextView{a867f4c V.ED..... ........ 0,0-34,34 #7f0b12f6 app:id/d42}
+                                        android.widget.FrameLayout{6d58b95 VFE...C.. ........ 272,0-306,34 #7f0b12e2 app:id/d3i}
+                                          com.bytedance.tux.input.TuxTextView{3b204aa V.ED..... ........ 0,0-34,34 #7f0b12f6 app:id/d42}
+                                android.widget.FrameLayout{4da9c4c V.E...... ........ 0,41-320,92}
+                                  android.widget.FrameLayout{5b3f89b V.E...... ........ 0,0-320,51 #7f0b0b86 app:id/bpm}
+                                    android.widget.FrameLayout{6424438 V.E...... ........ 0,0-320,51 #7f0b0b8d app:id/bpt}
+                                      android.widget.FrameLayout{b7be495 V.E...... ........ 0,0-320,49 #7f0b1425 app:id/db9}
+                                      android.widget.FrameLayout{3a3e9aa V.E...... ........ 0,0-320,51 #7f0b1d7f app:id/f2s}
+                                        com.bytedance.tux.input.TuxTextView{6504c11 GFED..CL. ......I. 0,0-0,0 #7f0b0b80 app:id/bpg}
+                                        androidx.constraintlayout.widget.ConstraintLayout{d83c176 V.E...... ........ 0,0-320,51 #7f0b0b8c app:id/bps}
+                                          androidx.appcompat.widget.AppCompatImageView{d4f8377 G.ED..... ......I. 0,0-0,0 #7f0b35a9 app:id/jks}
+                                          4YS{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH, ON_SET_CONTROLLER, ON_HOLDER_ATTACH, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                          4YS{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                          X.4Gz{9f36be4 I.ED..... ......I. 29,27-29,27 #7f0b275a app:id/gww}
+                                          android.view.View{178799b V.ED..... ........ 49,7-310,44 #7f0b225a app:id/fzc}
+                                          androidx.constraintlayout.widget.ConstraintLayout{e3b3138 V.E...... ........ 61,7-310,8 #7f0b01f3 app:id/xc}
+                                            android.view.View{ddc984d I.ED..... ......I. 0,0-240,1 #7f0b1fbc app:id/fh9}
+                                            com.bytedance.tux.input.TuxTextView{5e27f02 G.ED..... ......I. 0,0-0,0 #7f0b01f4 app:id/xd}
+                                            com.bytedance.tux.icon.TuxIconView{1aee013 G.ED..... ......I. 0,0-0,0 #7f0b1f5e app:id/fep}
+                                          X.ILZ{1833511 VFED..CL. ........ 61,8-203,33 #7f0b0b8e app:id/bpu}
+                                          4VL{holder=LRd{controllerAttached=false, holderAttached=true, drawableVisible=false, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH]}}
+                                          android.widget.FrameLayout{16d6250 G.E...... ......I. 0,0-0,0 #7f0b0f1f app:id/cdh}
+                                            com.bytedance.tux.icon.TuxIconView{9676c49 V.ED..... ......ID 0,0-0,0}
+                                          com.bytedance.tux.input.TuxTextView{d7d894e G.ED..... ......I. 0,0-0,0 #7f0b0bc3 app:id/br_}
+                                          android.widget.FrameLayout{e9d6a6f G.E...... ......I. 0,0-0,0 #7f0b0bba app:id/br1}
+                                            android.widget.FrameLayout{4e537c V.E...... ......I. 0,0-0,0 #7f0b0bd5 app:id/brr}
+                                              android.widget.LinearLayout{cb18405 V.E...... ......I. 0,0-0,0}
+                                                com.bytedance.tux.icon.TuxIconView{eacec5a V.ED..... ......ID 0,0-0,0 #7f0b34dd app:id/jf_}
+                                                com.bytedance.tux.input.TuxTextView{7403e8b V.ED..... ......I. 0,0-0,0 #7f0b34ef app:id/jfr}
+                                          android.widget.LinearLayout{b2ef676 V.E...... ........ 206,10-305,41 #7f0b1ba1 app:id/epv}
+                                            com.bytedance.tux.icon.TuxIconView{3eb2b68 G.ED..... ......I. 0,0-0,0 #7f0b217b app:id/ftb}
+                                            com.bytedance.tux.icon.TuxIconView{75b1477 VFED..C.. ........ 2,0-33,31 #7f0b1f28 app:id/fd9}
+                                            com.bytedance.tux.icon.TuxIconView{d0e28e4 VFED..C.. ........ 35,0-66,31 #7f0b1fcc app:id/fho}
+                                            com.bytedance.tux.icon.TuxIconView{3d5114d G.ED..... ......ID 0,0-0,0 #7f0b2045 app:id/fky}
+                                            com.bytedance.tux.icon.TuxIconView{ccb5b81 VFED..C.. ........ 68,0-99,31 #7f0b200a app:id/fjc}
+                                          com.bytedance.tux.icon.TuxIconView{f3d7426 GFED..C.. ......I. 0,0-0,0 #7f0b0bcd app:id/brj}
+                                          com.bytedance.tux.input.TuxTextView{1f23867 G.ED..... ......I. 0,0-0,0 #7f0b0bc8 app:id/bre}
+                                  android.widget.FrameLayout{7fb9614 G.E...... ......I. 0,0-0,0 #7f0b0b90 app:id/bpw}
+                              android.widget.LinearLayout{5512ebd G.E...... ......I. 0,0-0,0 #7f0b0574 app:id/akl}
+                                com.bytedance.tux.input.TuxTextView{2fcacb2 V.ED..... ......ID 0,0-0,0 #7f0b0575 app:id/akm}
+                                android.view.View{5dff403 V.ED..... ......I. 0,0-0,0}
+                                com.bytedance.tux.input.TuxTextView{a05ff80 V.ED..... ......ID 0,0-0,0 #7f0b0578 app:id/akp}
+                              android.widget.FrameLayout{3e7be20 V.E...... ........ 0,365-320,365 #7f0b0bae app:id/bqp}
+                            android.widget.FrameLayout{9523b87 V.E...... ........ 0,321-320,321 #7f0b0ccd app:id/byg}
+                              android.widget.LinearLayout{566f9b9 VFE...C.. ......ID 10,0-310,48 #7f0b0b75 app:id/bp6}
+                                androidx.constraintlayout.widget.ConstraintLayout{b04e1fe V.E...... ......ID 0,0-300,48}
+                                  com.bytedance.tux.icon.TuxIconView{663cd5f VFED..C.. ......ID 10,14-30,34 #7f0b0b71 app:id/bp2}
+                                  4VE{holder=LRd{controllerAttached=true, holderAttached=true, drawableVisible=true, events=[ON_SET_HIERARCHY, ON_DRAWABLE_HIDE, ON_HOLDER_ATTACH, ON_DRAWABLE_SHOW, ON_ATTACH_CONTROLLER]}}
+                                  com.bytedance.tux.input.TuxTextView{78b93ac V.ED..... ......ID 80,9-80,25 #7f0b0b74 app:id/bp5}
+                                  com.bytedance.tux.input.TuxTextView{747875 V.ED..... ......ID 80,25-80,39 #7f0b0b72 app:id/bp3}
+                                  com.bytedance.tux.icon.TuxIconView{dc9200a V.ED..... ......ID 270,14-290,34 #7f0b0b73 app:id/bp4}
+                            com.bytedance.tux.icon.TuxIconView{821e07b G.ED..... ......ID 0,0-0,0 #7f0b0572 app:id/akj}
+                            com.bytedance.tux.icon.TuxIconView{2f43e98 G.ED..... ......ID 0,0-0,0 #7f0b3b62 app:id/knd}
+                            com.bytedance.tux.input.TuxTextView{ea126f1 G.ED..... ......ID 0,0-0,0 #7f0b0576 app:id/akn}
+                  android.widget.FrameLayout{34e6d33 V.E...... ........ 0,0-320,439 #7f0b21b7 app:id/fuy}
+        android.view.View{f01ffc5 V.ED..... ........ 0,439-320,480 #1020030 android:id/navigationBarBackground}
+    Looper (main, tid 2) {fe6113f}
+      Message 0: { when=+3s241ms what=100003 target=com.bytedance.common.utility.collection.WeakHandler }
+      Message 1: { when=+34s934ms callback=Y.ARunnableS35S0100000_8 target=wb1.a }
+      Message 2: { when=+7m38s751ms what=1 target=com.bytedance.common.utility.collection.WeakHandler }
+      Message 3: { when=+7m41s754ms what=1000 target=com.bytedance.common.utility.collection.WeakHandler }
+      Message 4: { when=+7m41s865ms what=1000 target=com.bytedance.common.utility.collection.WeakHandler }
+      Message 5: { when=+53m17s934ms callback=Y.ARunnableS34S0100000_7 target=wb1.a }
+      Message 6: { when=+12h57m42s538ms callback=Y.ARunnableS34S0100000_7 target=wb1.a }
+      Message 7: { when=+18h28m11s130ms callback=Y.ARunnableS28S0200000_7 target=wb1.a }
+      (Total messages: 8, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: android.app.ContextImpl@5add7f9
+      service client: null
+      client: com.ss.android.ugc.aweme.main.MainActivity@b0ba221 (android.os.BinderProxy@d384875)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=2, compatMode=false, augmented=false, appDisabledExpiration=0
+      compat mode enabled: false
+      debug: true verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 30
+      resources: 9
+      resource impls: 11
+    Local FragmentActivity b0ba221 State:
+      mCreated=true mResumed=true mStopped=false    Active Fragments:    CommentListPageFragment{52dae1c} (1a7ade46-3e2b-4be0-a874-ec01168ad1a9) id=0x7f0b0bab comment_page}
+        mFragmentId=#7f0b0bab mContainerId=#7f0b0bab mTag=comment_page
+        mState=4 mWho=1a7ade46-3e2b-4be0-a874-ec01168ad1a9 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{7261d1a in a{b4825b}}}
+        mHost=X.WA6@b4825b
+        mArguments=Bundle[{id=X.CGS@3e132d6}]
+        mContainer=android.widget.FrameLayout{6cf81bb V.E...... ........ 0,0-320,439 #7f0b0bab app:id/bqm}
+        mView=android.widget.FrameLayout{2236651 V.E...... ........ 0,0-320,439 #7f0b0ccc app:id/byf}
+        Child FragmentManager{be40957 in CommentListPageFragment{52dae1c}}}:
+          Active Fragments:          CommentListFragment{684dad5} (a1daf443-1baf-43e3-8f8b-8350f81786ef) id=0x7f0b3725 android:switcher:2131441445:0}
+              mFragmentId=#7f0b3725 mContainerId=#7f0b3725 mTag=android:switcher:2131441445:0
+              mState=4 mWho=a1daf443-1baf-43e3-8f8b-8350f81786ef mBackStackNesting=0
+              mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+              mRetainInstance=false mUserVisibleHint=true
+              mFragmentManager=FragmentManager{be40957 in CommentListPageFragment{52dae1c}}}
+              mHost=X.WA6@b4825b
+              mParentFragment=CommentListPageFragment{52dae1c} (1a7ade46-3e2b-4be0-a874-ec01168ad1a9) id=0x7f0b0bab comment_page}
+              mArguments=Bundle[{id=X.CGS@3e132d6}]
+              mContainer=X.4iP{157a825 VFED..... ........ 0,36-320,401 #7f0b3725 app:id/jv2}
+              mView=android.widget.FrameLayout{f44f9d8 V.E...... ........ 0,0-320,365 #7f0b15f0 app:id/dnj}
+              Child FragmentManager{b3aac44 in CommentListFragment{684dad5}}}:
+                Active Fragments:                WidgetManager{1a6ff8b} (5ba20eb7-f821-4c91-92b6-52090262cbe9) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                    mFragmentId=#0 mContainerId=#0 mTag=com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager
+                    mState=4 mWho=5ba20eb7-f821-4c91-92b6-52090262cbe9 mBackStackNesting=0
+                    mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+                    mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                    mRetainInstance=false mUserVisibleHint=true
+                    mFragmentManager=FragmentManager{b3aac44 in CommentListFragment{684dad5}}}
+                    mHost=X.WA6@b4825b
+                    mParentFragment=CommentListFragment{684dad5} (a1daf443-1baf-43e3-8f8b-8350f81786ef) id=0x7f0b3725 android:switcher:2131441445:0}
+                    Child FragmentManager{910412d in WidgetManager{1a6ff8b}}}:
+                      Back Stack Index: 0
+                      FragmentManager misc state:
+                        mHost=X.WA6@b4825b
+                        mContainer=X.WBG@595a662
+                        mParent=WidgetManager{1a6ff8b} (5ba20eb7-f821-4c91-92b6-52090262cbe9) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                        mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+                Added Fragments:
+                  #0: WidgetManager{1a6ff8b} (5ba20eb7-f821-4c91-92b6-52090262cbe9) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                Back Stack Index: 0
+                FragmentManager misc state:
+                  mHost=X.WA6@b4825b
+                  mContainer=X.WBG@b35e3f3
+                  mParent=CommentListFragment{684dad5} (a1daf443-1baf-43e3-8f8b-8350f81786ef) id=0x7f0b3725 android:switcher:2131441445:0}
+                  mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+          WidgetManager{bd54da5} (911a6690-5ee6-430c-8072-5df2e805dc8c) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+              mFragmentId=#0 mContainerId=#0 mTag=com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager
+              mState=4 mWho=911a6690-5ee6-430c-8072-5df2e805dc8c mBackStackNesting=0
+              mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+              mRetainInstance=false mUserVisibleHint=true
+              mFragmentManager=FragmentManager{be40957 in CommentListPageFragment{52dae1c}}}
+              mHost=X.WA6@b4825b
+              mParentFragment=CommentListPageFragment{52dae1c} (1a7ade46-3e2b-4be0-a874-ec01168ad1a9) id=0x7f0b0bab comment_page}
+              Child FragmentManager{25848b0 in WidgetManager{bd54da5}}}:
+                Back Stack Index: 0
+                FragmentManager misc state:
+                  mHost=X.WA6@b4825b
+                  mContainer=X.WBG@ddcc329
+                  mParent=WidgetManager{bd54da5} (911a6690-5ee6-430c-8072-5df2e805dc8c) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                  mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+          Added Fragments:
+            #0: WidgetManager{bd54da5} (911a6690-5ee6-430c-8072-5df2e805dc8c) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+            #1: CommentListFragment{684dad5} (a1daf443-1baf-43e3-8f8b-8350f81786ef) id=0x7f0b3725 android:switcher:2131441445:0}
+          Back Stack Index: 0
+          FragmentManager misc state:
+            mHost=X.WA6@b4825b
+            mContainer=X.WBG@52bc6ae
+            mParent=CommentListPageFragment{52dae1c} (1a7ade46-3e2b-4be0-a874-ec01168ad1a9) id=0x7f0b0bab comment_page}
+            mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+    MainPageFragment{17f2a56} (a9187271-2398-475c-8141-bc0e3b60ba3e) id=0x7f0b4f4b android:switcher:2131447627:0}
+        mFragmentId=#7f0b4f4b mContainerId=#7f0b4f4b mTag=android:switcher:2131447627:0
+        mState=4 mWho=a9187271-2398-475c-8141-bc0e3b60ba3e mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{7261d1a in a{b4825b}}}
+        mHost=X.WA6@b4825b
+        mContainer=X.4OK{1dc2fca VFED..... ........ 0,0-320,439 #7f0b4f4b app:id/ocx}
+        mView=com.ss.android.ugc.aweme.ui.FragmentTabHost{18c153b VFE...... ........ 0,0-320,439 #7f0b271b app:id/gv7}
+        Child FragmentManager{434804b in MainPageFragment{17f2a56}}}:
+          Active Fragments:          MainFragment{e39cd70} (a5267137-dc16-4aaa-87f4-4dd150091508) id=0x7f0b415f HOME}
+              mFragmentId=#7f0b415f mContainerId=#7f0b415f mTag=HOME
+              mState=4 mWho=a5267137-dc16-4aaa-87f4-4dd150091508 mBackStackNesting=0
+              mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+              mRetainInstance=false mUserVisibleHint=true
+              mFragmentManager=FragmentManager{434804b in MainPageFragment{17f2a56}}}
+              mHost=X.WA6@b4825b
+              mParentFragment=MainPageFragment{17f2a56} (a9187271-2398-475c-8141-bc0e3b60ba3e) id=0x7f0b4f4b android:switcher:2131447627:0}
+              mArguments=Bundle[{}]
+              mContainer=android.widget.FrameLayout{6c49b1 V.E...... ........ 0,0-320,439 #7f0b415f app:id/lrq}
+              mView=android.widget.FrameLayout{c757e96 V.E...... ........ 0,0-320,439 #7f0b1669 app:id/dqt}
+              Child FragmentManager{e73aa28 in MainFragment{e39cd70}}}:
+                Active Fragments:                FeedRecommendFragment{9c0cc20} (2cf8f71a-e320-4fee-babf-80f3c50798b7) id=0x7f0b4f4b android:switcher:2131447627:984907784}
+                    mFragmentId=#7f0b4f4b mContainerId=#7f0b4f4b mTag=android:switcher:2131447627:984907784
+                    mState=4 mWho=2cf8f71a-e320-4fee-babf-80f3c50798b7 mBackStackNesting=0
+                    mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+                    mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                    mRetainInstance=false mUserVisibleHint=true
+                    mFragmentManager=FragmentManager{e73aa28 in MainFragment{e39cd70}}}
+                    mHost=X.WA6@b4825b
+                    mParentFragment=MainFragment{e39cd70} (a5267137-dc16-4aaa-87f4-4dd150091508) id=0x7f0b415f HOME}
+                    mArguments=Bundle[{com.ss.android.ugc.aweme.intent.extra.EVENT_TYPE=homepage_hot, com.ss.android.ugc.aweme.intent.extra.FEED_PANEL_SCENE=For You, com.ss.android.ugc.aweme.intent.extra.FEED_TYPE=0}]
+                    mContainer=X.Wki{e4acfed VFED..... ........ 0,0-320,439 #7f0b4f4b app:id/ocx}
+                    mView=android.widget.FrameLayout{f82ee22 VFE...C.. ........ 0,0-320,439 #7f0b151f app:id/dhx}
+                    Child FragmentManager{807d341 in FeedRecommendFragment{9c0cc20}}}:
+                      Active Fragments:                      WidgetManager{c3ca8f6} (29ea225c-6793-495c-b167-c8ad4c74b4ea) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                          mFragmentId=#0 mContainerId=#0 mTag=com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager
+                          mState=4 mWho=29ea225c-6793-495c-b167-c8ad4c74b4ea mBackStackNesting=0
+                          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+                          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                          mRetainInstance=false mUserVisibleHint=true
+                          mFragmentManager=FragmentManager{807d341 in FeedRecommendFragment{9c0cc20}}}
+                          mHost=X.WA6@b4825b
+                          mParentFragment=FeedRecommendFragment{9c0cc20} (2cf8f71a-e320-4fee-babf-80f3c50798b7) id=0x7f0b4f4b android:switcher:2131447627:984907784}
+                          Child FragmentManager{2f8f0e6 in WidgetManager{c3ca8f6}}}:
+                            Back Stack Index: 0
+                            FragmentManager misc state:
+                              mHost=X.WA6@b4825b
+                              mContainer=X.WBG@548d627
+                              mParent=WidgetManager{c3ca8f6} (29ea225c-6793-495c-b167-c8ad4c74b4ea) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                              mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+                      WidgetManager{4e60b1f} (7968b3bb-6368-4589-a3b5-039cf9e527b4) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                          mFragmentId=#0 mContainerId=#0 mTag=com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager
+                          mState=4 mWho=7968b3bb-6368-4589-a3b5-039cf9e527b4 mBackStackNesting=0
+                          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+                          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                          mRetainInstance=false mUserVisibleHint=true
+                          mFragmentManager=FragmentManager{807d341 in FeedRecommendFragment{9c0cc20}}}
+                          mHost=X.WA6@b4825b
+                          mParentFragment=FeedRecommendFragment{9c0cc20} (2cf8f71a-e320-4fee-babf-80f3c50798b7) id=0x7f0b4f4b android:switcher:2131447627:984907784}
+                          Child FragmentManager{a6d40d4 in WidgetManager{4e60b1f}}}:
+                            Back Stack Index: 0
+                            FragmentManager misc state:
+                              mHost=X.WA6@b4825b
+                              mContainer=X.WBG@23d627d
+                              mParent=WidgetManager{4e60b1f} (7968b3bb-6368-4589-a3b5-039cf9e527b4) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                              mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+                      WidgetManager{6ae37f} (a2718187-1063-4917-9ece-69757828ddc1) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                          mFragmentId=#0 mContainerId=#0 mTag=com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager
+                          mState=4 mWho=a2718187-1063-4917-9ece-69757828ddc1 mBackStackNesting=0
+                          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+                          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                          mRetainInstance=false mUserVisibleHint=true
+                          mFragmentManager=FragmentManager{807d341 in FeedRecommendFragment{9c0cc20}}}
+                          mHost=X.WA6@b4825b
+                          mParentFragment=FeedRecommendFragment{9c0cc20} (2cf8f71a-e320-4fee-babf-80f3c50798b7) id=0x7f0b4f4b android:switcher:2131447627:984907784}
+                          Child FragmentManager{1d33572 in WidgetManager{6ae37f}}}:
+                            Back Stack Index: 0
+                            FragmentManager misc state:
+                              mHost=X.WA6@b4825b
+                              mContainer=X.WBG@962adc3
+                              mParent=WidgetManager{6ae37f} (a2718187-1063-4917-9ece-69757828ddc1) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                              mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+                      WidgetManager{45c073e} (ffa5223e-a0b9-4332-a714-772708dd7618) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                          mFragmentId=#0 mContainerId=#0 mTag=com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager
+                          mState=4 mWho=ffa5223e-a0b9-4332-a714-772708dd7618 mBackStackNesting=0
+                          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+                          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                          mRetainInstance=false mUserVisibleHint=true
+                          mFragmentManager=FragmentManager{807d341 in FeedRecommendFragment{9c0cc20}}}
+                          mHost=X.WA6@b4825b
+                          mParentFragment=FeedRecommendFragment{9c0cc20} (2cf8f71a-e320-4fee-babf-80f3c50798b7) id=0x7f0b4f4b android:switcher:2131447627:984907784}
+                          Child FragmentManager{7c79640 in WidgetManager{45c073e}}}:
+                            Back Stack Index: 0
+                            FragmentManager misc state:
+                              mHost=X.WA6@b4825b
+                              mContainer=X.WBG@542a979
+                              mParent=WidgetManager{45c073e} (ffa5223e-a0b9-4332-a714-772708dd7618) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                              mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+                      Added Fragments:
+                        #0: WidgetManager{45c073e} (ffa5223e-a0b9-4332-a714-772708dd7618) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                        #1: WidgetManager{6ae37f} (a2718187-1063-4917-9ece-69757828ddc1) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                        #2: WidgetManager{4e60b1f} (7968b3bb-6368-4589-a3b5-039cf9e527b4) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                        #3: WidgetManager{c3ca8f6} (29ea225c-6793-495c-b167-c8ad4c74b4ea) com.ss.android.ugc.aweme.arch.widgets.base.WidgetManager}
+                      Back Stack Index: 0
+                      FragmentManager misc state:
+                        mHost=X.WA6@b4825b
+                        mContainer=X.WBG@99b36be
+                        mParent=FeedRecommendFragment{9c0cc20} (2cf8f71a-e320-4fee-babf-80f3c50798b7) id=0x7f0b4f4b android:switcher:2131447627:984907784}
+                        mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+                Added Fragments:
+                  #0: FeedRecommendFragment{9c0cc20} (2cf8f71a-e320-4fee-babf-80f3c50798b7) id=0x7f0b4f4b android:switcher:2131447627:984907784}
+                Back Stack Index: 0
+                FragmentManager misc state:
+                  mHost=X.WA6@b4825b
+                  mContainer=X.WBG@6b8631f
+                  mParent=MainFragment{e39cd70} (a5267137-dc16-4aaa-87f4-4dd150091508) id=0x7f0b415f HOME}
+                  mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+          Added Fragments:
+            #0: MainFragment{e39cd70} (a5267137-dc16-4aaa-87f4-4dd150091508) id=0x7f0b415f HOME}
+          Back Stack Index: 0
+          FragmentManager misc state:
+            mHost=X.WA6@b4825b
+            mContainer=X.WBG@3afd66c
+            mParent=MainPageFragment{17f2a56} (a9187271-2398-475c-8141-bc0e3b60ba3e) id=0x7f0b4f4b android:switcher:2131447627:0}
+            mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+    ProfilePageFragment{6b118a9} (679c67fe-f4b0-4c5e-9520-ed8c99b3f817) id=0x7f0b4f4b android:switcher:2131447627:1}
+        mFragmentId=#7f0b4f4b mContainerId=#7f0b4f4b mTag=android:switcher:2131447627:1
+        mState=4 mWho=679c67fe-f4b0-4c5e-9520-ed8c99b3f817 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+        mRetainInstance=false mUserVisibleHint=false
+        mFragmentManager=FragmentManager{7261d1a in a{b4825b}}}
+        mHost=X.WA6@b4825b
+        mContainer=X.4OK{1dc2fca VFED..... ........ 0,0-320,439 #7f0b4f4b app:id/ocx}
+        mView=android.widget.FrameLayout{5b0e6a4 V.E...... ........ 320,0-640,439 #7f0b0ccc app:id/byf}
+        Child FragmentManager{8bb6435 in ProfilePageFragment{6b118a9}}}:
+          Back Stack Index: 0
+          FragmentManager misc state:
+            mHost=X.WA6@b4825b
+            mContainer=X.WBG@65000ca
+            mParent=ProfilePageFragment{6b118a9} (679c67fe-f4b0-4c5e-9520-ed8c99b3f817) id=0x7f0b4f4b android:switcher:2131447627:1}
+            mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+    Added Fragments:
+      #0: MainPageFragment{17f2a56} (a9187271-2398-475c-8141-bc0e3b60ba3e) id=0x7f0b4f4b android:switcher:2131447627:0}
+      #1: ProfilePageFragment{6b118a9} (679c67fe-f4b0-4c5e-9520-ed8c99b3f817) id=0x7f0b4f4b android:switcher:2131447627:1}
+      #2: CommentListPageFragment{52dae1c} (1a7ade46-3e2b-4be0-a874-ec01168ad1a9) id=0x7f0b0bab comment_page}
+    Back Stack Index: 0
+    FragmentManager misc state:
+      mHost=X.WA6@b4825b
+      mContainer=X.WA6@b4825b
+      mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
