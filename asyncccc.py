@@ -1,30 +1,32 @@
 #!/usr/bin/env python3
 import asyncio
 import uiautomator2 as u2
+from ppadb.client import Client as AdbClient
 
-# uiautomatorviewer
 
+client = AdbClient(host="127.0.0.1", port=5037)
+devices = client.devices()
+
+
+new_vids_txt = []
+comments_txt = []
 app_name = "com.zhiliaoapp.musically"
 comments = "com.zhiliaoapp.musically:id/bpp"
 add_comment = "com.zhiliaoapp.musically:id/bpu"
 send_comment = "com.zhiliaoapp.musically:id/brj"
 
-new_vids_txt = []
 with open("new_vids.txt", "r") as file:
     lines = file.readlines()
     for line in lines:
         new_vids_txt.append(line.replace("\n", ""))
-
-comments_txt = []
 with open("comments.txt", "r") as file:
     lines = file.readlines()
     for line in lines:
         comments_txt.append(line.replace("\n", ""))
 
-d = u2.connect("127.0.0.1:6555")
 
-
-async def main():
+async def main(client):
+    d = u2.connect(client.serial)
     sess = d.session(app_name, attach=True)
 
     for vid in new_vids_txt:
@@ -39,4 +41,8 @@ async def main():
     sess.shell(f"am force-stop {app_name}")
 
 
-asyncio.run(main())
+async def fu():
+    await asyncio.gather(*[main(client) for index, client in enumerate(devices)])
+
+
+asyncio.run(fu())
