@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import asyncio
 import uiautomator2 as u2
 from ppadb.client import Client as AdbClient
