@@ -1,1 +1,9 @@
 contexts
+.DS_Store
+__pycache__
+comments.txt
+famouse_users.json
+famouse_users.txt
+new_users.txt
+new_vids.txt
+used_users.txt
