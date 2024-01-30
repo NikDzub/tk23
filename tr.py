@@ -32,18 +32,17 @@ async def main(client):
 
     for vid in new_vids_txt:
         sess.open_url(vid)
-        sess(resourceId=comments).click(10)
+        sess(resourceId=comments).click(40)
 
         for comment in comments_txt:
-            sess(resourceId=add_comment).click(10)
-            sess(resourceId=add_comment).set_text(comment)
+            # sess(resourceId=add_comment).click(10)
+            # sess(resourceId=add_comment).set_text(comment)
+            sess(text="Add comment...").click(10)
+            sess(text="Add comment...").set_text(comment)
             sess(resourceId=send_comment).click(10)
 
     sess.shell(f"am force-stop {app_name}")
 
 
-async def fu():
-    await asyncio.gather(*[main(client) for index, client in enumerate(devices)])
-
-
-asyncio.run(fu())
+for client in devices:
+    asyncio.run(main(client))
